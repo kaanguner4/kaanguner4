@@ -8,7 +8,7 @@
 
 <br/>
 
-<a href="mailto:kaan3235@gmail.com">
+<a href="mailto:guner.kaan@outlook.com">
   <img src="https://img.shields.io/badge/Email-kaan3235%40gmail.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 <a href="https://github.com/kaanguner4">
