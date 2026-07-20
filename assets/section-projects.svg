@@ -1,28 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="120" viewBox="0 0 1400 120" role="img" aria-labelledby="t d">
-  <title id="t">PROJECTS section</title>
-  <desc id="d">Neon section header for the PROJECTS section.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="104" viewBox="0 0 1400 104" role="img" aria-labelledby="t d">
+  <title id="t">projects section</title>
+  <desc id="d">Section header for projects.</desc>
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0E17"/><stop offset="1" stop-color="#0C1320"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F472B6" stop-opacity="0"/><stop offset="0.5" stop-color="#F472B6" stop-opacity="0.10"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect width="1400" height="104" rx="16"/></clipPath>
     <style>.mono{font-family:"SFMono-Regular","Cascadia Code","JetBrains Mono",ui-monospace,monospace}.disp{font-family:"Trebuchet MS",Verdana,Inter,"Segoe UI",Arial,sans-serif;font-weight:700}</style>
   </defs>
-  <rect width="1400" height="120" rx="18" fill="#0B0F1A"/>
-  <rect width="1400" height="120" rx="18" fill="url(#g)" opacity="0.10"/>
-  <rect x="0" y="0" width="6" height="120" rx="3" fill="#F472B6" filter="url(#glow)"/>
-  <text x="44" y="52" class="mono" font-size="15" letter-spacing="4" fill="#F9A8D4" opacity="0.85">/ 03</text>
-  <text x="44" y="94" class="disp" font-size="44" fill="#ECFEFF">PROJECTS</text>
-  <text x="286" y="92" class="mono" font-size="16" fill="#64748B">things i built and actually shipped</text>
-  <g opacity="0.9">
-    <circle cx="1330" cy="60" r="5" fill="#F472B6"><animate attributeName="opacity" values="1;0.15;1" dur="1.8s" repeatCount="indefinite"/></circle>
-    <circle cx="1352" cy="60" r="5" fill="#F472B6" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" begin="0.3s" repeatCount="indefinite"/></circle>
-    <rect x="1150" y="56" width="140" height="8" rx="4" fill="#111827"/>
-    <rect x="1150" y="56" width="40" height="8" rx="4" fill="#F472B6">
-      <animate attributeName="x" values="1150;1250;1150" dur="4s" repeatCount="indefinite"/>
-    </rect>
+  <g clip-path="url(#clip)">
+    <rect width="1400" height="104" fill="url(#bg)"/>
+    <rect x="-260" y="0" width="220" height="104" fill="url(#shine)" opacity="0.5"><animate attributeName="x" values="-260;1400;1400" dur="6s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="0" width="5" height="104" fill="#F472B6"><animate attributeName="opacity" values="1;0.45;1" dur="3.5s" repeatCount="indefinite"/></rect>
+    <text x="40" y="45" class="mono" font-size="13" letter-spacing="4" fill="#F9A8D4" opacity="0.8">/ 03</text>
+    <text x="40" y="82" class="disp" font-size="38" fill="#E5EEF5">projects</text>
+    <text x="248" y="80" class="mono" font-size="15" fill="#5A6678">things i built and shipped</text>
+    <circle cx="1348" cy="52" r="4.5" fill="#F472B6"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
   </g>
-  <rect x="1" y="1" width="1398" height="118" rx="18" fill="none" stroke="#1E293B"/>
+  <rect x="1" y="1" width="1398" height="102" rx="16" fill="none" stroke="#1B2537"/>
 </svg>

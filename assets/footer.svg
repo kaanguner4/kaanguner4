@@ -1,21 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="150" viewBox="0 0 1400 150" role="img" aria-labelledby="t d">
-  <title id="t">Footer</title>
-  <desc id="d">Closing banner with a thank you note.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0E1A"/><stop offset="1" stop-color="#121026"/></linearGradient>
+  <title id="t">Footer</title><desc id="d">Closing banner with a thank you note.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0E17"/><stop offset="1" stop-color="#0C1320"/></linearGradient>
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22D3EE"/><stop offset="0.5" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+      <stop offset="0" stop-color="#5EEAD4"/><stop offset="0.5" stop-color="#7DD3FC"/><stop offset="1" stop-color="#C4B5FD"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>.mono{font-family:"SFMono-Regular","Cascadia Code","JetBrains Mono",ui-monospace,monospace}.disp{font-family:"Trebuchet MS",Verdana,Inter,"Segoe UI",Arial,sans-serif;font-weight:700}</style>
   </defs>
-  <rect width="1400" height="150" rx="18" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1398" height="148" rx="18" fill="none" stroke="#1E293B"/>
-  <text x="700" y="70" text-anchor="middle" class="disp" font-size="34" fill="url(#neon)" filter="url(#glow)">thanks for scrolling this far ✦</text>
-  <text x="700" y="106" text-anchor="middle" class="mono" font-size="16" fill="#64748B">built with SVG, caffeine and too many gradients — Kaan Güner</text>
+  <rect width="1400" height="150" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1398" height="148" rx="16" fill="none" stroke="#1B2537"/>
+  <g filter="url(#glow)"><text x="700" y="70" text-anchor="middle" class="disp" font-size="32" fill="url(#neon)">thanks for scrolling this far</text></g>
+  <text x="700" y="106" text-anchor="middle" class="mono" font-size="15" fill="#5A6678">built with SVG, caffeine and a few too many gradients — Kaan Güner</text>
   <g>
-    <circle cx="640" cy="126" r="4" fill="#22D3EE"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
-    <circle cx="700" cy="126" r="4" fill="#A78BFA"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.6s" repeatCount="indefinite"/></circle>
-    <circle cx="760" cy="126" r="4" fill="#F472B6"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="656" cy="126" r="3.5" fill="#5EEAD4"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="126" r="3.5" fill="#7DD3FC"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="744" cy="126" r="3.5" fill="#C4B5FD"><animate attributeName="opacity" values="1;0.2;1" dur="2s" begin="0.6s" repeatCount="indefinite"/></circle>
   </g>
 </svg>

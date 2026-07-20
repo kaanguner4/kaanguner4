@@ -1,27 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="t d">
   <title id="t">Kaan Güner — AI, Data and Backend Engineering</title>
-  <desc id="d">Neon arcade style banner with animated grid, glowing name and status chips.</desc>
+  <desc id="d">A calm neon terminal banner with a soft moving grid, a glowing name and status chips.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A0E1A"/><stop offset="0.5" stop-color="#121026"/><stop offset="1" stop-color="#0A1620"/>
+      <stop offset="0" stop-color="#0A0E17"/><stop offset="1" stop-color="#0C1320"/>
     </linearGradient>
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22D3EE"><animate attributeName="stop-color" values="#22D3EE;#A78BFA;#F472B6;#22D3EE" dur="8s" repeatCount="indefinite"/></stop>
-      <stop offset="0.5" stop-color="#A78BFA"><animate attributeName="stop-color" values="#A78BFA;#F472B6;#FBBF24;#A78BFA" dur="8s" repeatCount="indefinite"/></stop>
-      <stop offset="1" stop-color="#F472B6"><animate attributeName="stop-color" values="#F472B6;#22D3EE;#A3E635;#F472B6" dur="8s" repeatCount="indefinite"/></stop>
+      <stop offset="0" stop-color="#5EEAD4"><animate attributeName="stop-color" values="#5EEAD4;#7DD3FC;#C4B5FD;#5EEAD4" dur="14s" repeatCount="indefinite"/></stop>
+      <stop offset="0.5" stop-color="#7DD3FC"><animate attributeName="stop-color" values="#7DD3FC;#C4B5FD;#5EEAD4;#7DD3FC" dur="14s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#C4B5FD"><animate attributeName="stop-color" values="#C4B5FD;#5EEAD4;#7DD3FC;#C4B5FD" dur="14s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/><stop offset="0.5" stop-color="#2DD4BF" stop-opacity="0.7"/><stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="eq" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#7DD3FC"/>
     </linearGradient>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="1"/>
     </linearGradient>
     <mask id="gridmask"><rect width="1400" height="420" fill="url(#fade)"/></mask>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="14"/>
-    </filter>
-    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
-      <path d="M56 0H0V56" fill="none" stroke="#22D3EE" stroke-opacity="0.22" stroke-width="1"/>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="26"/></filter>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#2DD4BF" stroke-opacity="0.09" stroke-width="1"/>
     </pattern>
     <style>
       .mono{font-family:"SFMono-Regular","Cascadia Code","JetBrains Mono",ui-monospace,monospace}
@@ -29,80 +33,75 @@
     </style>
   </defs>
 
-  <rect width="1400" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1400" height="420" rx="22" fill="url(#bg)"/>
   <g mask="url(#gridmask)">
     <rect y="150" width="1400" height="270" fill="url(#grid)">
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 56" dur="2.6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 60" dur="6s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <!-- ambient blobs -->
-  <circle cx="1180" cy="120" r="110" fill="#A78BFA" opacity="0.28" filter="url(#soft)">
-    <animate attributeName="cy" values="120;170;120" dur="9s" repeatCount="indefinite"/>
+  <!-- soft ambient light -->
+  <circle cx="1180" cy="120" r="150" fill="#38BDF8" opacity="0.12" filter="url(#soft)">
+    <animate attributeName="cy" values="120;160;120" dur="12s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1290" cy="260" r="80" fill="#22D3EE" opacity="0.25" filter="url(#soft)">
-    <animate attributeName="cx" values="1290;1230;1290" dur="11s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="120" cy="330" r="90" fill="#F472B6" opacity="0.18" filter="url(#soft)">
-    <animate attributeName="r" values="90;120;90" dur="7s" repeatCount="indefinite"/>
+  <circle cx="180" cy="340" r="130" fill="#A78BFA" opacity="0.10" filter="url(#soft)">
+    <animate attributeName="cx" values="180;120;180" dur="14s" repeatCount="indefinite"/>
   </circle>
 
   <!-- top bar -->
   <g class="mono" font-size="15" letter-spacing="3">
-    <circle cx="60" cy="50" r="6" fill="#F472B6"/><circle cx="80" cy="50" r="6" fill="#FBBF24"/><circle cx="100" cy="50" r="6" fill="#A3E635"/>
-    <text x="128" y="56" fill="#5EEAD4">~/kaanguner4 — profile.exe</text>
-    <text x="1340" y="56" text-anchor="end" fill="#94A3B8">TR // UTC+3</text>
+    <circle cx="60" cy="50" r="6" fill="#F472B6" opacity="0.85"/><circle cx="80" cy="50" r="6" fill="#FBBF24" opacity="0.85"/><circle cx="100" cy="50" r="6" fill="#34D399" opacity="0.85"/>
+    <text x="128" y="56" fill="#5EEAD4">~/kaanguner4 — profile</text>
+    <text x="1340" y="56" text-anchor="end" fill="#5A6678">TR // UTC+3</text>
   </g>
-  <line x1="56" y1="76" x2="1344" y2="76" stroke="#1E293B"/>
+  <line x1="56" y1="76" x2="1344" y2="76" stroke="url(#topline)"/>
 
   <!-- name -->
-  <text x="56" y="196" class="disp" font-size="86" fill="url(#neon)" filter="url(#glow)">KAAN GÜNER</text>
-  <text x="56" y="196" class="disp" font-size="86" fill="#EAF6FF" opacity="0.92">KAAN GÜNER</text>
+  <g filter="url(#glow)">
+    <text x="56" y="196" class="disp" font-size="88" fill="url(#neon)" letter-spacing="1">KAAN GÜNER</text>
+  </g>
 
   <g class="mono" font-size="21">
-    <text x="58" y="246" fill="#5EEAD4">&gt;</text>
-    <text x="82" y="246" fill="#CBD5E1">building predictive systems that survive real data</text>
-    <rect x="700" y="228" width="12" height="22" fill="#A3E635">
+    <text x="58" y="248" fill="#5EEAD4">&gt;</text>
+    <text x="82" y="248" fill="#B7C2D0">building predictive systems that survive real data</text>
+    <rect x="722" y="230" width="11" height="22" rx="1" fill="#5EEAD4">
       <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
     </rect>
   </g>
 
   <!-- chips -->
-  <g class="mono" font-size="15">
+  <g class="mono" font-size="15" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.2s" fill="freeze"/>
     <g>
-      <rect x="56" y="288" width="216" height="42" rx="21" fill="#22D3EE" fill-opacity="0.10" stroke="#22D3EE" stroke-opacity="0.55"/>
-      <text x="80" y="315" fill="#67E8F9">◆ Computer Engineering</text>
+      <rect x="56" y="290" width="212" height="40" rx="20" fill="#38BDF8" fill-opacity="0.08" stroke="#38BDF8" stroke-opacity="0.35"/>
+      <text x="80" y="316" fill="#7DD3FC">◆ Computer Engineering</text>
     </g>
     <g>
-      <rect x="288" y="288" width="196" height="42" rx="21" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA" stroke-opacity="0.55"/>
-      <text x="312" y="315" fill="#C4B5FD">◆ AI &amp; Data Systems</text>
+      <rect x="284" y="290" width="190" height="40" rx="20" fill="#A78BFA" fill-opacity="0.08" stroke="#A78BFA" stroke-opacity="0.35"/>
+      <text x="308" y="316" fill="#C4B5FD">◆ AI &amp; Data Systems</text>
     </g>
     <g>
-      <rect x="500" y="288" width="182" height="42" rx="21" fill="#F472B6" fill-opacity="0.10" stroke="#F472B6" stroke-opacity="0.55"/>
-      <text x="524" y="315" fill="#F9A8D4">◆ Backend / APIs</text>
+      <rect x="490" y="290" width="176" height="40" rx="20" fill="#F472B6" fill-opacity="0.08" stroke="#F472B6" stroke-opacity="0.35"/>
+      <text x="514" y="316" fill="#F9A8D4">◆ Backend / APIs</text>
     </g>
     <g>
-      <rect x="698" y="288" width="164" height="42" rx="21" fill="#A3E635" fill-opacity="0.10" stroke="#A3E635" stroke-opacity="0.5"/>
-      <circle cx="722" cy="309" r="5" fill="#A3E635"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
-      <text x="736" y="315" fill="#BEF264">open to work</text>
+      <rect x="682" y="290" width="158" height="40" rx="20" fill="#34D399" fill-opacity="0.08" stroke="#34D399" stroke-opacity="0.35"/>
+      <circle cx="706" cy="310" r="5" fill="#34D399"><animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/></circle>
+      <text x="720" y="316" fill="#6EE7B7">open to work</text>
     </g>
   </g>
 
   <!-- equaliser -->
-  <g transform="translate(1050,300)">
-    <g fill="#22D3EE" opacity="0.9">
-      <rect x="0" y="-10" width="10" height="10" rx="3"><animate attributeName="height" values="10;54;18;40;10" dur="1.9s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-54;-18;-40;-10" dur="1.9s" repeatCount="indefinite"/></rect>
-      <rect x="20" y="-10" width="10" height="10" rx="3" fill="#A78BFA"><animate attributeName="height" values="10;30;60;22;10" dur="2.3s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-30;-60;-22;-10" dur="2.3s" repeatCount="indefinite"/></rect>
-      <rect x="40" y="-10" width="10" height="10" rx="3" fill="#F472B6"><animate attributeName="height" values="10;46;14;58;10" dur="2.7s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-46;-14;-58;-10" dur="2.7s" repeatCount="indefinite"/></rect>
-      <rect x="60" y="-10" width="10" height="10" rx="3" fill="#FBBF24"><animate attributeName="height" values="10;22;50;30;10" dur="2.1s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-22;-50;-30;-10" dur="2.1s" repeatCount="indefinite"/></rect>
-      <rect x="80" y="-10" width="10" height="10" rx="3" fill="#A3E635"><animate attributeName="height" values="10;58;26;44;10" dur="2.5s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-58;-26;-44;-10" dur="2.5s" repeatCount="indefinite"/></rect>
-      <rect x="100" y="-10" width="10" height="10" rx="3" fill="#5EEAD4"><animate attributeName="height" values="10;36;62;16;10" dur="2.9s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-36;-62;-16;-10" dur="2.9s" repeatCount="indefinite"/></rect>
+  <g transform="translate(1066,306)" opacity="0.75">
+    <g fill="url(#eq)">
+      <rect x="0" y="-10" width="9" height="10" rx="3"><animate attributeName="height" values="10;46;18;36;10" dur="3.4s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-46;-18;-36;-10" dur="3.4s" repeatCount="indefinite"/></rect>
+      <rect x="18" y="-10" width="9" height="10" rx="3"><animate attributeName="height" values="10;28;52;20;10" dur="4.1s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-28;-52;-20;-10" dur="4.1s" repeatCount="indefinite"/></rect>
+      <rect x="36" y="-10" width="9" height="10" rx="3"><animate attributeName="height" values="10;40;14;50;10" dur="3.8s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-40;-14;-50;-10" dur="3.8s" repeatCount="indefinite"/></rect>
+      <rect x="54" y="-10" width="9" height="10" rx="3"><animate attributeName="height" values="10;22;44;28;10" dur="4.4s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-22;-44;-28;-10" dur="4.4s" repeatCount="indefinite"/></rect>
+      <rect x="72" y="-10" width="9" height="10" rx="3"><animate attributeName="height" values="10;50;24;38;10" dur="3.6s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-50;-24;-38;-10" dur="3.6s" repeatCount="indefinite"/></rect>
+      <rect x="90" y="-10" width="9" height="10" rx="3"><animate attributeName="height" values="10;32;54;16;10" dur="4.6s" repeatCount="indefinite"/><animate attributeName="y" values="-10;-32;-54;-16;-10" dur="4.6s" repeatCount="indefinite"/></rect>
     </g>
   </g>
 
-  <!-- scanline sweep -->
-  <rect x="0" y="0" width="1400" height="3" fill="#5EEAD4" opacity="0.35">
-    <animate attributeName="y" values="80;420;80" dur="6s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="1" y="1" width="1398" height="418" rx="24" fill="none" stroke="url(#neon)" stroke-opacity="0.9" stroke-width="2"/>
+  <rect x="1" y="1" width="1398" height="418" rx="22" fill="none" stroke="#1B2537"/>
 </svg>
