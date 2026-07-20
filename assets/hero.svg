@@ -1,237 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="540" viewBox="0 0 1400 540" role="img" aria-labelledby="title desc">
-  <title id="title">Kaan Güner — AI Engineer</title>
-  <desc id="desc">Minimal monochrome portfolio hero with animated name and black origami objects.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="228.571" viewBox="0 0 1400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Kaan Güner — Computer Engineering, AI and Data Systems</title>
+  <desc id="desc">A restrained editorial profile header in warm neutral tones.</desc>
   <defs>
-    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FBFAF7"/>
-      <stop offset="100%" stop-color="#F7F5F1"/>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F6F1"/>
+      <stop offset="1" stop-color="#F1EDE5"/>
     </linearGradient>
-    <linearGradient id="blackPaper" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050505"/>
-      <stop offset="55%" stop-color="#171717"/>
-      <stop offset="100%" stop-color="#303030"/>
-    </linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.16"/>
-    </filter>
-    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="2.4"/>
-    </filter>
     <style>
-      .mono { font-family: "SFMono-Regular","Cascadia Code","JetBrains Mono",monospace; }
-      .sans { font-family: Inter,Segoe UI,Arial,sans-serif; }
-      .name-char { font-family: "SFMono-Regular","Cascadia Code","JetBrains Mono",monospace; font-size: 78px; font-weight: 700; fill: #111111; text-anchor: middle; }
-      .micro { font-family: "SFMono-Regular","Cascadia Code","JetBrains Mono",monospace; fill: #111111; letter-spacing: 3px; }
+      .serif { font-family: Georgia, "Times New Roman", serif; }
+      .mono { font-family: "SFMono-Regular", "Cascadia Code", "JetBrains Mono", monospace; }
+      .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
     </style>
   </defs>
 
-  <rect width="1400" height="540" rx="28" fill="url(#paper)"/>
-  <rect x="1" y="1" width="1398" height="538" rx="27" fill="none" stroke="#D8D2CA"/>
+  <rect x="1" y="1" width="1398" height="398" rx="22" fill="url(#canvas)" stroke="#D7D1C6"/>
 
-  <!-- tiny editorial marks -->
-  <g fill="#111111" opacity=".68">
-    <circle cx="54" cy="52" r="2.2"/><circle cx="68" cy="52" r="2.2"/><circle cx="82" cy="52" r="2.2"/>
-    <circle cx="54" cy="66" r="2.2"/><circle cx="68" cy="66" r="2.2"/><circle cx="82" cy="66" r="2.2"/>
-  </g>
-  <path d="M1328 48h30v30M1328 492h30v-30" fill="none" stroke="#111111" stroke-width="1.2"/>
-
-  <!-- left content -->
-  <text x="72" y="78" class="micro" font-size="17">&gt;_ AI ENGINEER</text>
-  <text x="72" y="150" class="mono" font-size="24" fill="#111111" letter-spacing="3">HELLO, I'M</text>
-
-  <g>
-    
-      <text x="95" y="244" class="name-char" opacity="0">X
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.00s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="95" y="244" class="name-char" opacity="0">Q
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.11s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="95" y="244" class="name-char" opacity="0">7
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.22s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="95" y="244" class="name-char" opacity="0">K
-        <animate attributeName="opacity" values="0;1" begin="0.33s" dur="0.32s" fill="freeze"/>
-      </text>
-      <text x="188" y="244" class="name-char" opacity="0">4
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.12s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="188" y="244" class="name-char" opacity="0">M
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.23s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="188" y="244" class="name-char" opacity="0">R
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.34s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="188" y="244" class="name-char" opacity="0">A
-        <animate attributeName="opacity" values="0;1" begin="0.45s" dur="0.32s" fill="freeze"/>
-      </text>
-      <text x="281" y="244" class="name-char" opacity="0">V
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.24s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="281" y="244" class="name-char" opacity="0">2
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.35s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="281" y="244" class="name-char" opacity="0">A
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.46s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="281" y="244" class="name-char" opacity="0">A
-        <animate attributeName="opacity" values="0;1" begin="0.57s" dur="0.32s" fill="freeze"/>
-      </text>
-      <text x="374" y="244" class="name-char" opacity="0">8
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.36s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="374" y="244" class="name-char" opacity="0">H
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.47s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="374" y="244" class="name-char" opacity="0">Y
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.58s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="374" y="244" class="name-char" opacity="0">N
-        <animate attributeName="opacity" values="0;1" begin="0.69s" dur="0.32s" fill="freeze"/>
-      </text>
-      <text x="505" y="244" class="name-char" opacity="0">0
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.48s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="505" y="244" class="name-char" opacity="0">C
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.59s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="505" y="244" class="name-char" opacity="0">Z
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.70s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="505" y="244" class="name-char" opacity="0">G
-        <animate attributeName="opacity" values="0;1" begin="0.81s" dur="0.32s" fill="freeze"/>
-      </text>
-      <text x="598" y="244" class="name-char" opacity="0">T
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.60s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="598" y="244" class="name-char" opacity="0">1
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.71s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="598" y="244" class="name-char" opacity="0">P
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.82s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="598" y="244" class="name-char" opacity="0">Ü
-        <animate attributeName="opacity" values="0;1" begin="0.93s" dur="0.32s" fill="freeze"/>
-      </text>
-      <text x="691" y="244" class="name-char" opacity="0">J
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.72s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="691" y="244" class="name-char" opacity="0">W
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.83s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="691" y="244" class="name-char" opacity="0">4
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.94s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="691" y="244" class="name-char" opacity="0">N
-        <animate attributeName="opacity" values="0;1" begin="1.05s" dur="0.32s" fill="freeze"/>
-      </text>
-      <text x="784" y="244" class="name-char" opacity="0">3
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.84s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="784" y="244" class="name-char" opacity="0">B
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.95s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="784" y="244" class="name-char" opacity="0">Q
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="1.06s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="784" y="244" class="name-char" opacity="0">E
-        <animate attributeName="opacity" values="0;1" begin="1.17s" dur="0.32s" fill="freeze"/>
-      </text>
-      <text x="877" y="244" class="name-char" opacity="0">6
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="0.96s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="877" y="244" class="name-char" opacity="0">F
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="1.07s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="877" y="244" class="name-char" opacity="0">S
-        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.25;1" begin="1.18s" dur="0.30s" fill="freeze"/>
-      </text>
-
-      <text x="877" y="244" class="name-char" opacity="0">R
-        <animate attributeName="opacity" values="0;1" begin="1.29s" dur="0.32s" fill="freeze"/>
-      </text>
+  <g class="mono" font-size="13" letter-spacing="2.1">
+    <text x="64" y="55" fill="#191815">KG</text>
+    <text x="96" y="55" fill="#7D6C5D">/ 01</text>
+    <text x="1336" y="55" text-anchor="end" fill="#746F66">TÜRKİYE</text>
   </g>
 
-  <line x1="74" y1="280" x2="126" y2="280" stroke="#111111" stroke-width="2"/>
-  <text x="72" y="332" class="mono" font-size="21" fill="#242424" letter-spacing="2.5">I BUILD INTELLIGENT SYSTEMS THAT</text>
-  <text x="72" y="370" class="mono" font-size="21" fill="#242424" letter-spacing="2.5">TURN DATA INTO DECISIONS AND IDEAS INTO IMPACT.</text>
+  <line x1="64" y1="80" x2="1336" y2="80" stroke="#D7D1C6"/>
 
-  <g transform="translate(72 428)" class="mono" fill="#111111">
-    <text x="0" y="0" font-size="30">&lt;/&gt;</text>
-    <text x="0" y="38" font-size="13.5" letter-spacing="2.1">CODE WITH PURPOSE</text>
-    <line x1="225" y1="-18" x2="225" y2="54" stroke="#D8D2CA"/>
-    <text x="268" y="0" font-size="28">◈</text>
-    <text x="268" y="38" font-size="13.5" letter-spacing="2.1">SOLVE REAL PROBLEMS</text>
-    <line x1="540" y1="-18" x2="540" y2="54" stroke="#D8D2CA"/>
-    <text x="585" y="0" font-size="31">↗</text>
-    <text x="585" y="38" font-size="13.5" letter-spacing="2.1">CREATE LASTING IMPACT</text>
+  <text x="64" y="188" class="serif" font-size="76" fill="#191815" letter-spacing="-1.8">Kaan Güner</text>
+  <text x="68" y="231" class="mono" font-size="16" fill="#7D6C5D" letter-spacing="2.2">COMPUTER ENGINEERING · AI &amp; DATA SYSTEMS</text>
+
+  <text x="66" y="297" class="sans" font-size="20" fill="#393630">
+    Building reliable systems around real-world data — from signal to decision.
+  </text>
+
+  <g class="mono" font-size="12.5" fill="#746F66" letter-spacing="1.7">
+    <text x="66" y="353">AI SYSTEMS</text>
+    <circle cx="190" cy="349" r="2" fill="#7D6C5D"/>
+    <text x="210" y="353">DATA ENGINEERING</text>
+    <circle cx="381" cy="349" r="2" fill="#7D6C5D"/>
+    <text x="401" y="353">BACKEND</text>
   </g>
 
-  <!-- Origami crane -->
-  <g transform="translate(910 64)" filter="url(#shadow)">
-    <polygon points="0,62 64,10 48,78" fill="#171717"/>
-    <polygon points="48,78 112,24 92,88" fill="#2A2A2A"/>
-    <polygon points="48,78 99,118 77,84" fill="#0A0A0A"/>
-    <polygon points="48,78 5,116 27,70" fill="#3C3C3C"/>
-    <polygon points="92,88 148,112 101,122" fill="#1C1C1C"/>
-    <polygon points="64,10 80,54 48,78" fill="#050505"/>
-    <path d="M111 24l28-21" stroke="#111" stroke-width="4"/>
-  </g>
+  <line x1="925" y1="112" x2="925" y2="350" stroke="#D7D1C6"/>
 
-  <!-- Origami rose -->
-  <g transform="translate(1140 54)" filter="url(#shadow)">
-    <polygon points="76,0 117,26 109,72 78,102 39,84 16,45 38,13" fill="#111"/>
-    <polygon points="76,0 81,38 117,26" fill="#2B2B2B"/>
-    <polygon points="81,38 109,72 78,102" fill="#080808"/>
-    <polygon points="81,38 39,84 16,45" fill="#232323"/>
-    <polygon points="38,13 81,38 16,45" fill="#3A3A3A"/>
-    <polygon points="81,38 38,13 76,0" fill="#151515"/>
-    <polygon points="81,38 117,26 109,72" fill="#313131"/>
-    <polyline points="72,102 62,160 86,214" fill="none" stroke="#171717" stroke-width="8"/>
-    <polygon points="64,148 15,122 55,174" fill="#1C1C1C"/>
-    <polygon points="84,188 132,154 96,208" fill="#2B2B2B"/>
+  <g transform="translate(1018 119)">
+    <polygon points="0,105 110,0 219,105 110,211" fill="#7D6C5D" opacity="0.08"/>
+    <polygon points="0,105 110,0 110,105" fill="#7D6C5D" opacity="0.16"/>
+    <polygon points="110,105 219,105 110,211" fill="#191815" opacity="0.07"/>
+    <path d="M0 105L110 0L219 105L110 211L0 105ZM0 105H219M110 0V211" fill="none" stroke="#A79B8D" stroke-width="1"/>
+    <circle cx="110" cy="105" r="5" fill="#7D6C5D"/>
+    <circle cx="0" cy="105" r="3" fill="#191815"/>
+    <circle cx="219" cy="105" r="3" fill="#191815"/>
   </g>
-
-  <!-- Origami laptop -->
-  <g transform="translate(915 278)" filter="url(#shadow)">
-    <polygon points="30,0 245,36 220,168 0,132" fill="url(#blackPaper)"/>
-    <polygon points="0,132 220,168 302,205 72,174" fill="#111"/>
-    <polygon points="72,174 302,205 274,223 43,192" fill="#2B2B2B"/>
-    <path d="M31 14L220 47M20 126L218 158M116 18L108 145" stroke="#555" stroke-width="1" opacity=".45"/>
-    <g fill="#353535">
-      <rect x="94" y="165" width="19" height="8" rx="1"/>
-      <rect x="118" y="168" width="19" height="8" rx="1"/>
-      <rect x="142" y="171" width="19" height="8" rx="1"/>
-      <rect x="166" y="174" width="19" height="8" rx="1"/>
-      <rect x="190" y="177" width="19" height="8" rx="1"/>
-    </g>
-  </g>
-
-  <text x="1128" y="505" class="mono" font-size="12.5" fill="#7A746C" letter-spacing="2">ORIGAMI / DATA / SYSTEMS</text>
 </svg>
