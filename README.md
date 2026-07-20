@@ -6,7 +6,9 @@
 
 <a href="mailto:guner.kaan@outlook.com">Email</a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#selected-work">Selected work</a>
+<a href="#activity">Activity</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#selected-projects">Projects</a>
 
 </div>
 
@@ -18,21 +20,17 @@ Computer Engineering student working across **AI, data, and backend engineering*
 
 <img width="100%" src="./assets/divider.svg" alt="" />
 
-## Current work
+## Activity
 
-### Industrial Water Anomaly Detection
-
-A production-oriented system that analyses industrial water-quality sensor streams and generates early warnings before measurements reach critical alarm limits.
-
-<img width="100%" src="./assets/pipeline.svg" alt="Industrial water anomaly detection pipeline" />
-
-`Time-series forecasting` · `Anomaly detection` · `Feature engineering` · `FastAPI` · `Redis` · `Docker`
-
-<sub>Private R&D project developed with real on-site IoT sensor data.</sub>
+<img width="100%" src="./assets/activity-board.svg" alt="Current activity board: building predictive systems, refining data pipelines, and learning MLOps" />
 
 <img width="100%" src="./assets/divider.svg" alt="" />
 
-## Selected work
+## Selected projects
+
+<img width="100%" src="./assets/pipeline.svg" alt="Featured project: Industrial Water Anomaly Detection" />
+
+<br/>
 
 <table>
 <tr>
@@ -63,11 +61,11 @@ A production-oriented system that analyses industrial water-quality sensor strea
 
 <img width="100%" src="./assets/divider.svg" alt="" />
 
-## Engineering practice
+## Languages & technologies
 
-<img width="100%" src="./assets/tech-stack.svg" alt="AI, data, services and delivery technology stack" />
+<img width="100%" src="./assets/tech-stack.svg" alt="Programming languages and technologies across AI, data, backend, databases, and delivery" />
 
-<sub>BTK Akademi — Introduction to Deep Learning</sub>
+<sub>Coursework · BTK Akademi — Introduction to Deep Learning</sub>
 
 <br/><br/>
 

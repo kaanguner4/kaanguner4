@@ -24,7 +24,7 @@ Quiet, editorial, and technically precise. The profile should feel considered be
 ## Visual language
 
 1. Use warm neutrals and graphite; reserve the accent for small navigational details.
-2. Use one quiet fold motif instead of literal origami illustrations.
+2. Keep the black origami crane, rose, and computer as the profile's signature visual motif.
 3. Prefer rules, spacing, and alignment over badges or decorative cards.
 4. Keep all motion out of the profile header.
 5. Keep project cards structurally identical and let the content create distinction.
@@ -36,13 +36,13 @@ Quiet, editorial, and technically precise. The profile should feel considered be
 ```text
 Identity
 Profile
-Current work
-Selected work
-Engineering practice
+Activity board
+Selected projects
+Languages & technologies
 Contact
 ```
 
-Each piece of information should appear once. Technology lists belong in the engineering-practice panel; project cards only show the tools relevant to that project.
+Each piece of information should appear once. The activity board shows present focus, the featured card owns the flagship-system detail, and the languages-and-technologies panel holds the complete working set.
 
 ## Repository structure
 
@@ -51,6 +51,7 @@ README.md
 DESIGN_SYSTEM.md
 assets/
   hero.svg
+  activity-board.svg
   divider.svg
   pipeline.svg
   tech-stack.svg

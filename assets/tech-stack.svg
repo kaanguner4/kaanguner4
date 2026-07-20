@@ -1,40 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="142.857" viewBox="0 0 1400 250" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering practice</title>
-  <desc id="desc">Tools grouped across models, data, services, and delivery.</desc>
-  <defs>
-    <style>
-      .mono { font-family: "SFMono-Regular", "Cascadia Code", monospace; }
-      .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
-    </style>
-  </defs>
-
-  <rect x="1" y="1" width="1398" height="248" rx="18" fill="#F8F6F1" stroke="#D7D1C6"/>
-  <text x="46" y="45" class="mono" font-size="13" fill="#746F66" letter-spacing="1.9">WORKING SET</text>
-  <line x1="46" y1="66" x2="1354" y2="66" stroke="#D7D1C6"/>
-
-  <g transform="translate(46 98)">
-    <g>
-      <text class="mono" font-size="12" fill="#7D6C5D" letter-spacing="1.6">01 / MODELS</text>
-      <text y="38" class="sans" font-size="17" fill="#191815">Scikit-learn · XGBoost</text>
-      <text y="67" class="sans" font-size="15" fill="#746F66">LightGBM · CatBoost</text>
-    </g>
-    <line x1="304" y1="0" x2="304" y2="98" stroke="#D7D1C6"/>
-    <g transform="translate(342)">
-      <text class="mono" font-size="12" fill="#7D6C5D" letter-spacing="1.6">02 / DATA</text>
-      <text y="38" class="sans" font-size="17" fill="#191815">Pandas · PostgreSQL</text>
-      <text y="67" class="sans" font-size="15" fill="#746F66">MySQL · Redis</text>
-    </g>
-    <line x1="647" y1="0" x2="647" y2="98" stroke="#D7D1C6"/>
-    <g transform="translate(685)">
-      <text class="mono" font-size="12" fill="#7D6C5D" letter-spacing="1.6">03 / SERVICES</text>
-      <text y="38" class="sans" font-size="17" fill="#191815">FastAPI · Node.js</text>
-      <text y="67" class="sans" font-size="15" fill="#746F66">REST APIs · Auth</text>
-    </g>
-    <line x1="990" y1="0" x2="990" y2="98" stroke="#D7D1C6"/>
-    <g transform="translate(1028)">
-      <text class="mono" font-size="12" fill="#7D6C5D" letter-spacing="1.6">04 / DELIVERY</text>
-      <text y="38" class="sans" font-size="17" fill="#191815">Docker · GitHub</text>
-      <text y="67" class="sans" font-size="15" fill="#746F66">Linux · Supabase</text>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="182.857" viewBox="0 0 1400 320" role="img" aria-labelledby="title desc">
+  <title id="title">Languages and technologies</title><desc id="desc">Programming languages and tools grouped across AI, data, backend, databases, and delivery.</desc>
+  <defs><style>.mono{font-family:"SFMono-Regular","Cascadia Code",monospace}.sans{font-family:Inter,"Segoe UI",Arial,sans-serif}</style></defs>
+  <rect x="1" y="1" width="1398" height="318" rx="18" fill="#F8F6F1" stroke="#D7D1C6"/><text x="46" y="45" class="mono" font-size="13" fill="#746F66" letter-spacing="1.9">LANGUAGES &amp; TECHNOLOGIES</text><line x1="46" y1="68" x2="1354" y2="68" stroke="#D7D1C6"/>
+  <g transform="translate(46 103)">
+    <g><text class="mono" font-size="12" fill="#7D6C5D" letter-spacing="1.6">01 / LANGUAGES</text><text y="45" class="sans" font-size="17" fill="#191815">Python</text><text y="78" class="sans" font-size="17" fill="#191815">JavaScript · TypeScript</text><text y="111" class="sans" font-size="17" fill="#191815">SQL</text></g>
+    <line x1="304" y1="0" x2="304" y2="158" stroke="#D7D1C6"/>
+    <g transform="translate(342)"><text class="mono" font-size="12" fill="#7D6C5D" letter-spacing="1.6">02 / AI &amp; DATA</text><text y="45" class="sans" font-size="17" fill="#191815">Pandas · Scikit-learn</text><text y="78" class="sans" font-size="17" fill="#191815">XGBoost · LightGBM</text><text y="111" class="sans" font-size="17" fill="#191815">CatBoost</text></g>
+    <line x1="647" y1="0" x2="647" y2="158" stroke="#D7D1C6"/>
+    <g transform="translate(685)"><text class="mono" font-size="12" fill="#7D6C5D" letter-spacing="1.6">03 / BACKEND &amp; DB</text><text y="45" class="sans" font-size="17" fill="#191815">FastAPI · Node.js</text><text y="78" class="sans" font-size="17" fill="#191815">PostgreSQL · MySQL</text><text y="111" class="sans" font-size="17" fill="#191815">Redis · REST APIs</text></g>
+    <line x1="990" y1="0" x2="990" y2="158" stroke="#D7D1C6"/>
+    <g transform="translate(1028)"><text class="mono" font-size="12" fill="#7D6C5D" letter-spacing="1.6">04 / DELIVERY</text><text y="45" class="sans" font-size="17" fill="#191815">Docker · Git</text><text y="78" class="sans" font-size="17" fill="#191815">GitHub · Linux</text><text y="111" class="sans" font-size="17" fill="#191815">Supabase</text></g>
   </g>
 </svg>
