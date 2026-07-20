@@ -1,21 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="150" viewBox="0 0 1400 150" role="img" aria-labelledby="t d">
-  <title id="t">Profile footer</title>
-  <desc id="d">Minimal black footer with an origami boat.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="160" viewBox="0 0 1400 160" role="img" aria-labelledby="title desc">
+  <title id="title">Profile footer</title>
+  <desc id="desc">Minimal black footer with a white origami boat.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0A0A0A"/>
-      <stop offset="100%" stop-color="#232323"/>
+      <stop offset="0%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#222222"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="1398" height="148" rx="20" fill="url(#bg)" stroke="#333"/>
-  <text x="74" y="62" fill="#F7F5F0" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="18" letter-spacing="2">BUILD WITH PURPOSE.</text>
-  <text x="74" y="96" fill="#A9A39B" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="14" letter-spacing="1.4">Turning data into intelligent decisions.</text>
-  <g transform="translate(1160 42)">
-    <polygon points="0,46 75,18 146,47 75,77" fill="#F1EFEA"/>
-    <polygon points="0,46 75,77 35,87" fill="#B9B5AE"/>
-    <polygon points="146,47 75,77 113,87" fill="#D6D2CB"/>
-    <polygon points="75,18 75,77 43,49" fill="#FFFFFF"/>
-    <polygon points="75,18 108,49 75,77" fill="#C9C4BC"/>
-    <path d="M25 99 Q75 111 126 99" fill="none" stroke="#777" stroke-width="2" opacity=".6"/>
+  <rect x="1" y="1" width="1398" height="158" rx="22" fill="url(#bg)" stroke="#333"/>
+  <text x="70" y="64" fill="#F7F5F0" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="18" letter-spacing="2.2">BUILD WITH PURPOSE.</text>
+  <text x="70" y="101" fill="#A9A39B" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="14" letter-spacing="1.4">Turning data into intelligent decisions.</text>
+  <g transform="translate(1165 36)">
+    <polygon points="0,48 72,16 145,48 73,82" fill="#F3F1ED"/>
+    <polygon points="0,48 73,82 34,92" fill="#A8A29A"/>
+    <polygon points="145,48 73,82 112,92" fill="#D8D3CC"/>
+    <polygon points="72,16 73,82 42,52" fill="#FFFFFF"/>
+    <polygon points="72,16 106,52 73,82" fill="#C8C2BA"/>
   </g>
 </svg>

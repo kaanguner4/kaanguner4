@@ -1,11 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="64" viewBox="0 0 1400 64" role="img" aria-label="Origami divider">
-  <rect width="1400" height="64" fill="#FBFAF7"/>
-  <path d="M60 32 H620 M780 32 H1340" stroke="#D2CCC4" stroke-width="1"/>
-  <g transform="translate(666 12)">
-    <polygon points="0,20 28,4 20,26" fill="#141414"/>
-    <polygon points="20,26 41,8 38,31" fill="#333"/>
-    <polygon points="20,26 44,39 38,31" fill="#0B0B0B"/>
-    <polygon points="20,26 3,37 11,22" fill="#555"/>
-    <polygon points="38,31 65,39 45,43" fill="#1C1C1C"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="70" viewBox="0 0 1400 70" role="img" aria-labelledby="title desc">
+  <title id="title">Origami divider</title>
+  <desc id="desc">Minimal black origami crane between two thin lines.</desc>
+  <rect width="1400" height="70" fill="#FBFAF7"/>
+  <path d="M60 35 H615 M785 35 H1340" stroke="#D8D2CA" stroke-width="1"/>
+  <g transform="translate(661 10)">
+    <polygon points="0,25 32,5 23,31" fill="#121212"/>
+    <polygon points="23,31 48,9 43,37" fill="#343434"/>
+    <polygon points="23,31 53,47 43,37" fill="#080808"/>
+    <polygon points="23,31 3,45 13,27" fill="#505050"/>
+    <polygon points="43,37 75,48 53,52" fill="#1B1B1B"/>
   </g>
 </svg>

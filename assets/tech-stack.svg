@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="340" viewBox="0 0 1400 340" role="img" aria-labelledby="title desc">
+  <title id="title">Technology stack</title>
+  <desc id="desc">Monochrome grid of technology cards.</desc>
+  <rect width="1400" height="340" rx="24" fill="#FBFAF7" stroke="#D8D2CA"/>
+  <text x="42" y="46" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="15" fill="#7A746C" letter-spacing="2.2">TECHNOLOGY STACK</text>
+  
+  <g transform="translate(42 78)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">PY</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">Python</text>
+  </g>
+  <g transform="translate(257 78)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">SQL</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">PostgreSQL</text>
+  </g>
+  <g transform="translate(472 78)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">FA</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">FastAPI</text>
+  </g>
+  <g transform="translate(687 78)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">RD</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">Redis</text>
+  </g>
+  <g transform="translate(902 78)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">DK</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">Docker</text>
+  </g>
+  <g transform="translate(1117 78)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">PD</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">Pandas</text>
+  </g>
+  <g transform="translate(42 196)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">SK</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">Scikit-Learn</text>
+  </g>
+  <g transform="translate(257 196)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">LG</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">LightGBM</text>
+  </g>
+  <g transform="translate(472 196)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">XG</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">XGBoost</text>
+  </g>
+  <g transform="translate(687 196)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">JS</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">JavaScript</text>
+  </g>
+  <g transform="translate(902 196)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">TS</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">TypeScript</text>
+  </g>
+  <g transform="translate(1117 196)">
+    <rect width="188" height="92" rx="16" fill="#111"/>
+    <text x="94" y="40" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="20" font-weight="700" fill="#FFF">ND</text>
+    <text x="94" y="67" text-anchor="middle" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="12.5" fill="#BDB7AF">Node.js</text>
+  </g>
+</svg>

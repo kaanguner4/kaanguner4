@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="250" viewBox="0 0 660 250" role="img" aria-labelledby="title desc">
+  <title id="title">NAC SYSTEM</title>
+  <desc id="desc">Authentication, authorization and accounting backend.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090909"/>
+      <stop offset="100%" stop-color="#222222"/>
+    </linearGradient>
+  </defs>
+  <rect width="660" height="250" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="658" height="248" rx="21" fill="none" stroke="#3B3B3B"/>
+  <text x="38" y="45" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="13" fill="#9A938B" letter-spacing="2">PROJECT / 03</text>
+  <text x="38" y="92" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="24" font-weight="700" fill="#FFFFFF">NAC SYSTEM</text>
+  <text x="38" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" fill="#CFCAC3">Authentication, authorization and accounting backend.</text>
+  <line x1="38" y1="164" x2="622" y2="164" stroke="#3C3C3C"/>
+  <text x="38" y="200" font-family="SFMono-Regular,Cascadia Code,monospace" font-size="13" fill="#B7B0A8">FastAPI   ·   PostgreSQL   ·   Redis</text>
+  <g transform="translate(560 32)">
+    <polygon points="0,36 34,4 28,45" fill="#F2F0EC"/>
+    <polygon points="28,45 64,15 53,50" fill="#BDB7AF"/>
+    <polygon points="28,45 55,72 43,49" fill="#FFFFFF"/>
+    <polygon points="28,45 2,69 14,40" fill="#88817A"/>
+  </g>
+</svg>

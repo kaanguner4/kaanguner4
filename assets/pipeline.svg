@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="260" viewBox="0 0 1400 260" role="img" aria-labelledby="title desc">
+  <title id="title">Water anomaly detection pipeline</title>
+  <desc id="desc">Minimal system pipeline from IoT sensor stream to predictive warning.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171717"/>
+      <stop offset="100%" stop-color="#0B0B0B"/>
+    </linearGradient>
+    <style>
+      .t { font-family:"SFMono-Regular","Cascadia Code",monospace; }
+    </style>
+  </defs>
+  <rect width="1400" height="260" rx="24" fill="#FBFAF7" stroke="#D8D2CA"/>
+  <text x="56" y="52" class="t" font-size="15" fill="#7A746C" letter-spacing="2.2">INDUSTRIAL WATER ANOMALY DETECTION</text>
+  <g transform="translate(55 92)">
+    <g transform="translate(0 0)"><rect width="205" height="92" rx="16" fill="url(#card)"/><text x="102.5" y="39" text-anchor="middle" class="t" font-size="15" fill="#FFFFFF">IoT SENSOR STREAM</text><text x="102.5" y="64" text-anchor="middle" class="t" font-size="12.5" fill="#BEB8B0">30-second readings</text></g><g transform="translate(250 0)"><rect width="205" height="92" rx="16" fill="url(#card)"/><text x="102.5" y="39" text-anchor="middle" class="t" font-size="15" fill="#FFFFFF">FEATURE ENGINEERING</text><text x="102.5" y="64" text-anchor="middle" class="t" font-size="12.5" fill="#BEB8B0">lags · slopes · windows</text></g><g transform="translate(500 0)"><rect width="205" height="92" rx="16" fill="url(#card)"/><text x="102.5" y="39" text-anchor="middle" class="t" font-size="15" fill="#FFFFFF">CHANNEL MODELS</text><text x="102.5" y="64" text-anchor="middle" class="t" font-size="12.5" fill="#BEB8B0">ML + rule fallback</text></g><g transform="translate(750 0)"><rect width="205" height="92" rx="16" fill="url(#card)"/><text x="102.5" y="39" text-anchor="middle" class="t" font-size="15" fill="#FFFFFF">DECISION ENGINE</text><text x="102.5" y="64" text-anchor="middle" class="t" font-size="12.5" fill="#BEB8B0">risk aggregation</text></g><g transform="translate(1000 0)"><rect width="205" height="92" rx="16" fill="url(#card)"/><text x="102.5" y="39" text-anchor="middle" class="t" font-size="15" fill="#FFFFFF">PREDICTIVE WARNING</text><text x="102.5" y="64" text-anchor="middle" class="t" font-size="12.5" fill="#BEB8B0">time-to-alarm</text></g>
+    <g fill="none" stroke="#9A8676" stroke-width="2">
+      <path d="M205 46H250"/><path d="M455 46H500"/><path d="M705 46H750"/><path d="M955 46H1000"/>
+    </g>
+    <g fill="#9A8676">
+      <path d="M244 41l8 5-8 5z"/><path d="M494 41l8 5-8 5z"/><path d="M744 41l8 5-8 5z"/><path d="M994 41l8 5-8 5z"/>
+    </g>
+  </g>
+</svg>
