@@ -1,20 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="660" height="218" viewBox="0 0 660 218" role="img" aria-labelledby="title desc">
-  <title id="title">Track Learner AI</title>
-  <desc id="desc">An autonomous agent learning to navigate a simulated track.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="360" viewBox="0 0 700 360" role="img" aria-labelledby="t d">
+  <title id="t">Track Learner AI</title>
+  <desc id="d">Agents that learn to drive a track from scratch through neuroevolution.</desc>
   <defs>
-    <style>
-      .serif { font-family: Georgia, "Times New Roman", serif; }
-      .mono { font-family: "SFMono-Regular", "Cascadia Code", monospace; }
-      .sans { font-family: Inter, "Segoe UI", Arial, sans-serif; }
-    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F1A"/><stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="26"/></filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#A78BFA" fill-opacity="0.18"/>
+    </pattern>
+    <style>.mono{font-family:"SFMono-Regular","Cascadia Code","JetBrains Mono",ui-monospace,monospace}.disp{font-family:"Trebuchet MS",Verdana,Inter,"Segoe UI",Arial,sans-serif;font-weight:700}</style>
   </defs>
-  <rect x="1" y="1" width="658" height="216" rx="16" fill="#F8F6F1" stroke="#D7D1C6"/>
-  <path d="M610 1h33a16 16 0 0 1 16 16v33z" fill="#7D6C5D" opacity="0.14"/>
-  <path d="M610 1l49 49" stroke="#D7D1C6"/>
-  <text x="30" y="40" class="mono" font-size="13.5" fill="#7D6C5D" letter-spacing="1.5">03 / SIMULATION</text>
-  <text x="30" y="90" class="serif" font-size="31" fill="#191815">Track Learner AI</text>
-  <text x="30" y="125" class="sans" font-size="18.5" fill="#746F66">Autonomous navigation through learning.</text>
-  <line x1="30" y1="151" x2="630" y2="151" stroke="#D7D1C6"/>
-  <text x="30" y="187" class="mono" font-size="14" fill="#393630" letter-spacing="0.5">Python · NEAT · Simulation</text>
-  <text x="630" y="187" text-anchor="end" class="mono" font-size="19" fill="#7D6C5D">↗</text>
+  <rect width="700" height="360" rx="20" fill="url(#bg)"/>
+  <rect width="700" height="360" rx="20" fill="url(#dots)"/>
+  <circle cx="640" cy="40" r="90" fill="#A78BFA" opacity="0.30" filter="url(#soft)">
+    <animate attributeName="opacity" values="0.30;0.14;0.30" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <g class="mono" font-size="13" letter-spacing="3">
+    <rect x="34" y="30" width="132" height="28" rx="14" fill="#A78BFA" fill-opacity="0.14" stroke="#A78BFA" stroke-opacity="0.5"/>
+    <text x="50" y="49" fill="#C4B5FD">SIMULATION</text>
+  </g>
+
+  <text x="34" y="120" class="disp" font-size="38" fill="#F1F5F9">Track</text>
+  <text x="34" y="164" class="disp" font-size="38" fill="#F1F5F9">Learner AI</text>
+
+  <text x="34" y="214" class="mono" font-size="16" fill="#94A3B8">Agents that learn to drive a track from</text>
+  <text x="34" y="240" class="mono" font-size="16" fill="#94A3B8">scratch through neuroevolution.</text>
+
+  <g class="mono" font-size="14"><rect x="34" y="266" width="76" height="30" rx="8" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA" stroke-opacity="0.35"/><text x="45" y="286" fill="#C4B5FD">Python</text><rect x="120" y="266" width="58" height="30" rx="8" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA" stroke-opacity="0.35"/><text x="131" y="286" fill="#C4B5FD">NEAT</text><rect x="188" y="266" width="76" height="30" rx="8" fill="#A78BFA" fill-opacity="0.10" stroke="#A78BFA" stroke-opacity="0.35"/><text x="199" y="286" fill="#C4B5FD">Pygame</text></g>
+
+  <line x1="34" y1="322" x2="666" y2="322" stroke="#1E293B"/>
+  <text x="34" y="348" class="mono" font-size="13" fill="#C4B5FD">&gt; open repository</text>
+  <rect x="192" y="337" width="9" height="15" fill="#A78BFA"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></rect>
+
+  <rect x="1" y="1" width="698" height="358" rx="20" fill="none" stroke="url(#edge)" stroke-width="2"/>
 </svg>

@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="27.429" viewBox="0 0 1400 48" role="presentation">
-  <line x1="0" y1="24" x2="1400" y2="24" stroke="#D7D1C6"/>
-  <circle cx="24" cy="24" r="3" fill="#7D6C5D"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="40" viewBox="0 0 1400 40" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="d" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/><stop offset="0.5" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="20" x2="1400" y2="20" stroke="url(#d)" stroke-width="2"/>
+  <circle cx="700" cy="20" r="5" fill="#5EEAD4"><animate attributeName="cx" values="0;1400;0" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="7s" repeatCount="indefinite"/></circle>
 </svg>

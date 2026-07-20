@@ -1,28 +1,38 @@
 <div align="center">
 
-<img width="100%" src="./assets/hero.svg" alt="Kaan Güner — Computer Engineering, AI and Data Systems" />
+<img width="100%" src="./assets/hero.svg" alt="Kaan Güner — AI, Data and Backend Engineering" />
 
 <br/>
 
-<a href="mailto:guner.kaan@outlook.com">Email</a>
+<a href="#-whoami"><b>whoami</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#activity">Activity</a>
+<a href="#-activity"><b>activity</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#selected-projects">Projects</a>
+<a href="#-projects"><b>projects</b></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#-stack"><b>stack</b></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="#-contact"><b>contact</b></a>
 
 </div>
 
 <br/>
 
-## Profile
+<a id="-whoami"></a>
+<img width="100%" src="./assets/section-about.svg" alt="Section: whoami" />
 
-Computer Engineering student working across **AI, data, and backend engineering**. I am interested in predictive systems built around real-world data: from sensing and pipelines to models, APIs, and operational decisions.
+<img width="100%" src="./assets/about.svg" alt="About Kaan Güner" />
 
 <img width="100%" src="./assets/divider.svg" alt="" />
 
-## Activity
+<a id="-activity"></a>
+<img width="100%" src="./assets/section-activity.svg" alt="Section: activity" />
 
-<img width="100%" src="./assets/activity-board.svg" alt="Animated contribution stream header" />
+<img width="100%" src="./assets/activity-board.svg" alt="Live activity board with streaks, commit stats and a session log" />
+
+<br/>
+
+<div align="center"><sub><b>Real contribution snake — regenerated daily from my GitHub activity</b></sub></div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaanguner4/kaanguner4/output/github-contribution-grid-snake-dark.svg" />
@@ -32,34 +42,37 @@ Computer Engineering student working across **AI, data, and backend engineering*
 
 <img width="100%" src="./assets/divider.svg" alt="" />
 
-## Selected projects
+<a id="-projects"></a>
+<img width="100%" src="./assets/section-projects.svg" alt="Section: projects" />
 
-<img width="100%" src="./assets/pipeline.svg" alt="Featured project: Industrial Water Anomaly Detection" />
-
-<br/>
+<div align="center">
+<a href="https://github.com/kaanguner4">
+<img width="100%" src="./assets/project-water.svg" alt="Industrial Water Anomaly Detection — flagship project" />
+</a>
+</div>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/kaanguner4/CarPricePredictor-ML-Model">
-<img width="100%" src="./assets/project-car-price.svg" alt="Car Price Predictor — machine-learning regression project" />
+<img width="100%" src="./assets/project-car-price.svg" alt="Car Price Predictor" />
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/kaanguner4/TrackLearnerAI">
-<img width="100%" src="./assets/project-track-learner.svg" alt="Track Learner AI — autonomous navigation simulation" />
+<img width="100%" src="./assets/project-track-learner.svg" alt="Track Learner AI" />
 </a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/kaanguner4/NAC-System">
-<img width="100%" src="./assets/project-nac.svg" alt="NAC System — authentication, authorization and accounting backend" />
+<img width="100%" src="./assets/project-nac.svg" alt="NAC System" />
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/kaanguner4/AutoCareHub">
-<img width="100%" src="./assets/project-auto-care.svg" alt="Auto Care Hub — vehicle service management platform" />
+<img width="100%" src="./assets/project-auto-care.svg" alt="Auto Care Hub" />
 </a>
 </td>
 </tr>
@@ -67,10 +80,28 @@ Computer Engineering student working across **AI, data, and backend engineering*
 
 <img width="100%" src="./assets/divider.svg" alt="" />
 
-## Languages & technologies
+<a id="-stack"></a>
+<img width="100%" src="./assets/section-stack.svg" alt="Section: stack" />
 
-<img width="100%" src="./assets/tech-stack.svg" alt="Programming languages and technologies across AI, data, backend, databases, and delivery" />
+<img width="100%" src="./assets/tech-stack.svg" alt="Languages and technologies grouped by area" />
 
-<br/><br/>
+<br/>
 
-<img width="100%" src="./assets/footer.svg" alt="Kaan Güner — AI, data and systems" />
+<img width="100%" src="./assets/principles.svg" alt="Working principles" />
+
+<img width="100%" src="./assets/divider.svg" alt="" />
+
+<a id="-contact"></a>
+<img width="100%" src="./assets/section-contact.svg" alt="Section: contact" />
+
+<div align="center">
+
+<a href="mailto:guner.kaan@outlook.com"><b>✉️ Email</b></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/kaanguner4"><b>🐙 GitHub</b></a>
+
+</div>
+
+<br/>
+
+<img width="100%" src="./assets/footer.svg" alt="Thanks for scrolling — Kaan Güner" />
