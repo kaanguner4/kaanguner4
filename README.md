@@ -1,39 +1,42 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0F172A,45:1D4ED8,100:06B6D4&text=Kaan%20G%C3%BCner&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=AI%20Engineer%20%E2%80%A2%20Machine%20Learning%20%E2%80%A2%20Data%20Engineering&descAlignY=58&animation=fadeIn" alt="Kaan Güner header" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Building+AI+systems+for+real-world+problems;Industrial+IoT+%2B+Machine+Learning;FastAPI+%E2%80%A2+Redis+%E2%80%A2+Docker;Turning+sensor+data+into+decisions" alt="Typing animation" />
-</a>
+<img width="100%" src="./assets/hero.svg" alt="Kaan Güner — AI Engineering and Data Systems" />
 
 <br/>
 
 <a href="mailto:guner.kaan@outlook.com">
-  <img src="https://img.shields.io/badge/Email-guner.kaan%40outlook.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/EMAIL-guner.kaan%40outlook.com-111827?style=for-the-badge&logo=microsoftoutlook&logoColor=67E8F9&labelColor=0B1020" alt="Email" />
 </a>
 <a href="https://github.com/kaanguner4">
-  <img src="https://img.shields.io/badge/GitHub-kaanguner4-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GITHUB-kaanguner4-111827?style=for-the-badge&logo=github&logoColor=C4B5FD&labelColor=0B1020" alt="GitHub" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=kaanguner4&style=for-the-badge&color=0891B2&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
+<br/>
+
+## `01 / PROFILE`
+
+I am a **Computer Engineering student** building production-oriented systems across **Artificial Intelligence, Machine Learning, Data Engineering, and backend development**.
+
+My work focuses on turning raw data into reliable decisions through predictive models, APIs, databases, and deployable infrastructure.
+
+```yaml
+name: Kaan Güner
+location: Türkiye
+focus:
+  - AI Engineering
+  - Data Engineering
+  - Industrial IoT
+  - Time-Series Forecasting
+currently_building:
+  - Water Anomaly Detection Platform
+  - Predictive Alert Systems
+```
+
 ---
 
-## About Me
-
-I am a **Computer Engineering student** focused on **Artificial Intelligence, Machine Learning, Data Engineering, and backend systems**.
-
-My main interest is building production-oriented systems that combine **real-world data, predictive models, APIs, and scalable infrastructure**.
-
-- Currently building an industrial **Water Anomaly Detection** platform
-- Working with **time-series sensor data**, forecasting, and anomaly detection
-- Developing backend services with **FastAPI, PostgreSQL, Redis, and Docker**
-- Expanding my knowledge in **MLOps, PyTorch, Airflow, Kafka, and Kubernetes**
-
----
-
-## Core Expertise
+## `02 / CORE CAPABILITIES`
 
 <table>
 <tr>
@@ -55,7 +58,7 @@ My main interest is building production-oriented systems that combine **real-wor
 
 - REST API development
 - PostgreSQL and MySQL
-- Redis-based data pipelines
+- Redis-based pipelines
 - Data processing with Pandas
 - Dockerized services
 - Authentication and role-based systems
@@ -66,94 +69,128 @@ My main interest is building production-oriented systems that combine **real-wor
 
 ---
 
-## Technologies
+## `03 / TECHNOLOGY STACK`
 
 <div align="center">
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,ts,sql&perline=7" alt="Programming languages" />
+<img src="https://img.shields.io/badge/Python-0B1020?style=for-the-badge&logo=python&logoColor=67E8F9" alt="Python" />
+<img src="https://img.shields.io/badge/Java-0B1020?style=for-the-badge&logo=openjdk&logoColor=C4B5FD" alt="Java" />
+<img src="https://img.shields.io/badge/C-0B1020?style=for-the-badge&logo=c&logoColor=67E8F9" alt="C" />
+<img src="https://img.shields.io/badge/C++-0B1020?style=for-the-badge&logo=cplusplus&logoColor=C4B5FD" alt="C++" />
+<img src="https://img.shields.io/badge/JavaScript-0B1020?style=for-the-badge&logo=javascript&logoColor=F8FAFC" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-0B1020?style=for-the-badge&logo=typescript&logoColor=67E8F9" alt="TypeScript" />
+<img src="https://img.shields.io/badge/SQL-0B1020?style=for-the-badge&logo=postgresql&logoColor=C4B5FD" alt="SQL" />
 
-### Backend, Data & Infrastructure
+### AI, Data & Infrastructure
 
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,react,postgres,mysql,redis,docker,git,github,linux,vscode&perline=6" alt="Backend and infrastructure" />
-
-### Machine Learning
-
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/XGBoost-EB5B26?style=for-the-badge" alt="XGBoost" />
-<img src="https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge" alt="LightGBM" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+<img src="https://img.shields.io/badge/Scikit--Learn-111827?style=for-the-badge&logo=scikitlearn&logoColor=67E8F9" alt="Scikit-Learn" />
+<img src="https://img.shields.io/badge/Pandas-111827?style=for-the-badge&logo=pandas&logoColor=C4B5FD" alt="Pandas" />
+<img src="https://img.shields.io/badge/NumPy-111827?style=for-the-badge&logo=numpy&logoColor=67E8F9" alt="NumPy" />
+<img src="https://img.shields.io/badge/LightGBM-111827?style=for-the-badge&logoColor=C4B5FD" alt="LightGBM" />
+<img src="https://img.shields.io/badge/XGBoost-111827?style=for-the-badge&logoColor=67E8F9" alt="XGBoost" />
+<img src="https://img.shields.io/badge/FastAPI-111827?style=for-the-badge&logo=fastapi&logoColor=C4B5FD" alt="FastAPI" />
+<img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=67E8F9" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Redis-111827?style=for-the-badge&logo=redis&logoColor=C4B5FD" alt="Redis" />
+<img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=67E8F9" alt="Docker" />
 
 </div>
 
 ---
 
-## Flagship Project
+## `04 / FLAGSHIP SYSTEM`
 
 ### Industrial Water Anomaly Detection
 
-A production-oriented AI system that analyzes industrial water-quality sensor streams and produces early warnings before measurements reach critical alarm limits.
+A production-oriented AI system that analyzes industrial water-quality sensor streams and generates early warnings before measurements reach critical alarm limits.
 
-**Key areas:** multi-channel machine learning, time-series forecasting, dynamic device/channel mapping, Redis history, FastAPI services, Docker deployment, rule-based fallbacks, and decision aggregation.
+```mermaid
+flowchart LR
+    A[IoT Sensor Stream] --> B[Feature Engineering]
+    B --> C[Channel-Specific Models]
+    C --> D[Decision Engine]
+    D --> E[Risk Classification]
+    E --> F[Predictive Warning]
+```
 
-> This is an active private R&D project developed using real on-site IoT sensor data.
+**System scope**
+
+`Multi-channel ML` · `Time-series forecasting` · `Dynamic channel mapping` · `Redis history` · `FastAPI services` · `Docker deployment`
+
+> Active private R&D project developed using real on-site IoT sensor data.
 
 ---
 
-## Featured Public Projects
+## `05 / SELECTED PROJECTS`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Car Price Predictor
+
+Machine-learning regression application comparing ensemble models for used-car price estimation.
+
+`Python` `Scikit-Learn` `CatBoost` `LightGBM` `Streamlit`
+
+[Explore repository →](https://github.com/kaanguner4/CarPricePredictor-ML-Model)
+
+</td>
+<td width="50%" valign="top">
+
+### Track Learner AI
+
+An experimental reinforcement-learning project in which an autonomous agent learns to navigate a track.
+
+`Python` `NEAT` `Simulation` `AI`
+
+[Explore repository →](https://github.com/kaanguner4/TrackLearnerAI)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### NAC System
+
+A backend-oriented Network Access Control system covering authentication, authorization, and accounting concepts.
+
+`FastAPI` `PostgreSQL` `Redis` `Python`
+
+[Explore repository →](https://github.com/kaanguner4/NAC-System)
+
+</td>
+<td width="50%" valign="top">
+
+### Auto Care Hub
+
+A full-stack vehicle service management platform with users, vehicles, appointments, and administrative workflows.
+
+`Node.js` `Express.js` `MySQL` `Bootstrap`
+
+[Explore repository →](https://github.com/kaanguner4/AutoCareHub)
+
+</td>
+</tr>
+</table>
+
+---
+
+## `06 / CURRENT DIRECTION`
+
+```text
+AI Engineering      Predictive systems • anomaly detection • model evaluation
+Data Engineering    Time-series pipelines • SQL • Redis • structured data
+Backend Systems     FastAPI • Node.js • REST APIs • PostgreSQL
+Infrastructure      Docker • GitHub • Linux • Supabase
+Next                MLOps • PyTorch • Airflow • Kafka • Kubernetes
+```
+
+---
 
 <div align="center">
 
-<a href="https://github.com/kaanguner4/CarPricePredictor-ML-Model">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=kaanguner4&repo=CarPricePredictor-ML-Model&theme=tokyonight&hide_border=true&border_radius=12" alt="Car Price Predictor" />
-</a>
-<a href="https://github.com/kaanguner4/TrackLearnerAI">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=kaanguner4&repo=TrackLearnerAI&theme=tokyonight&hide_border=true&border_radius=12" alt="Track Learner AI" />
-</a>
-
-<a href="https://github.com/kaanguner4/NAC-System">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=kaanguner4&repo=NAC-System&theme=tokyonight&hide_border=true&border_radius=12" alt="NAC System" />
-</a>
-<a href="https://github.com/kaanguner4/AutoCareHub">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=kaanguner4&repo=AutoCareHub&theme=tokyonight&hide_border=true&border_radius=12" alt="Auto Care Hub" />
-</a>
-
-</div>
-
----
-
-## GitHub Analytics
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kaanguner4&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&rank_icon=github" alt="GitHub statistics" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaanguner4&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8" alt="Top languages" />
-
-<br/><br/>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=kaanguner4&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub streak" />
-
-<br/><br/>
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=kaanguner4&theme=tokyo-night&hide_border=true&radius=12&area=true" alt="Contribution activity graph" />
-
-</div>
-
----
-
-## Current Learning Path
-
-`MLOps` · `PyTorch` · `Apache Airflow` · `Apache Kafka` · `Kubernetes` · `LLM Engineering`
-
----
-
-<div align="center">
-
-### Turning data into intelligent decisions.
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0F172A,45:1D4ED8,100:06B6D4" alt="Footer" />
+### `TURNING DATA INTO INTELLIGENT DECISIONS`
 
 </div>
