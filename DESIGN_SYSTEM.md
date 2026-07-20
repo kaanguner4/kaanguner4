@@ -26,10 +26,11 @@ Quiet, editorial, and technically precise. The profile should feel considered be
 1. Use warm neutrals and graphite; reserve the accent for small navigational details.
 2. Keep the black origami crane, rose, and computer as the profile's signature visual motif.
 3. Prefer rules, spacing, and alignment over badges or decorative cards.
-4. Keep all motion out of the profile header.
+4. Use motion as ambient background behavior, never as fast or flashing UI.
 5. Keep project cards structurally identical and let the content create distinction.
 6. Avoid external statistic services so the profile remains stable and factual.
 7. Use local SVG assets with accessible titles and descriptions.
+8. Pair the local animated marquee with a daily-generated, real contribution-grid animation.
 
 ## Content hierarchy
 
@@ -60,4 +61,7 @@ assets/
   project-nac.svg
   project-auto-care.svg
   footer.svg
+.github/
+  workflows/
+    contribution-snake.yml
 ```

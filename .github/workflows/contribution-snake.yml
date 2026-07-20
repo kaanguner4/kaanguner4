@@ -1,0 +1,36 @@
+name: Generate contribution animation
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate animated contribution grids
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=#191815&color_dots=#EEEAE3,#D6CDC2,#B9AA9B,#7D6C5D,#3B332D
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#F4F1EA&color_dots=#161B22,#3A332D,#65574C,#927C69,#C2AA95
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish animation to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true

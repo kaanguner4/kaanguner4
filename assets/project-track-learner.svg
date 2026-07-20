@@ -11,10 +11,10 @@
   <rect x="1" y="1" width="658" height="216" rx="16" fill="#F8F6F1" stroke="#D7D1C6"/>
   <path d="M610 1h33a16 16 0 0 1 16 16v33z" fill="#7D6C5D" opacity="0.14"/>
   <path d="M610 1l49 49" stroke="#D7D1C6"/>
-  <text x="30" y="38" class="mono" font-size="11.5" fill="#7D6C5D" letter-spacing="1.5">03 / SIMULATION</text>
-  <text x="30" y="87" class="serif" font-size="27" fill="#191815">Track Learner AI</text>
-  <text x="30" y="120" class="sans" font-size="15" fill="#746F66">Autonomous navigation through learning.</text>
+  <text x="30" y="40" class="mono" font-size="13.5" fill="#7D6C5D" letter-spacing="1.5">03 / SIMULATION</text>
+  <text x="30" y="90" class="serif" font-size="31" fill="#191815">Track Learner AI</text>
+  <text x="30" y="125" class="sans" font-size="18.5" fill="#746F66">Autonomous navigation through learning.</text>
   <line x1="30" y1="151" x2="630" y2="151" stroke="#D7D1C6"/>
-  <text x="30" y="185" class="mono" font-size="12" fill="#393630" letter-spacing="0.5">Python · NEAT · Simulation</text>
-  <text x="630" y="185" text-anchor="end" class="mono" font-size="16" fill="#7D6C5D">↗</text>
+  <text x="30" y="187" class="mono" font-size="14" fill="#393630" letter-spacing="0.5">Python · NEAT · Simulation</text>
+  <text x="630" y="187" text-anchor="end" class="mono" font-size="19" fill="#7D6C5D">↗</text>
 </svg>

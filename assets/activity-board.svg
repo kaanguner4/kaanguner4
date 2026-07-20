@@ -1,19 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="182.857" viewBox="0 0 1400 320" role="img" aria-labelledby="title desc">
-  <title id="title">Current activity board</title><desc id="desc">Current focus across building, engineering, refining, and learning.</desc>
-  <defs><style>.mono{font-family:"SFMono-Regular","Cascadia Code",monospace}.sans{font-family:Inter,"Segoe UI",Arial,sans-serif}</style></defs>
-  <rect x="1" y="1" width="1398" height="318" rx="18" fill="#F8F6F1" stroke="#D7D1C6"/>
-  <text x="44" y="43" class="mono" font-size="13" fill="#746F66" letter-spacing="1.9">ACTIVITY BOARD</text><circle cx="1274" cy="39" r="4" fill="#7D6C5D"/><text x="1290" y="44" class="mono" font-size="11" fill="#746F66" letter-spacing="1.4">IN MOTION</text>
-  <g class="mono" font-size="10.5" fill="#8A847B" letter-spacing="1.5"><text x="45" y="82">MODE</text><text x="190" y="82">FOCUS</text><text x="930" y="82">STATE</text><text x="1160" y="82">RHYTHM</text></g><line x1="44" y1="94" x2="1356" y2="94" stroke="#D7D1C6"/>
-  <g class="mono" font-size="12.5" fill="#191815">
-    <text x="45" y="130" fill="#7D6C5D">BUILD</text><text x="190" y="130">Water anomaly detection system</text><rect x="920" y="109" width="126" height="31" rx="15.5" fill="#1B1A18"/><text x="983" y="130" text-anchor="middle" fill="#F8F6F1" font-size="10.5" letter-spacing="1.2">ACTIVE</text>
-    <text x="45" y="178" fill="#7D6C5D">ENGINEER</text><text x="190" y="178">Predictive alerts and decision logic</text><rect x="920" y="157" width="126" height="31" rx="15.5" fill="#1B1A18"/><text x="983" y="178" text-anchor="middle" fill="#F8F6F1" font-size="10.5" letter-spacing="1.2">ACTIVE</text>
-    <text x="45" y="226" fill="#7D6C5D">REFINE</text><text x="190" y="226">APIs, data pipelines, and deployment</text><rect x="920" y="205" width="126" height="31" rx="15.5" fill="#E9E4DB" stroke="#CFC7BB"/><text x="983" y="226" text-anchor="middle" fill="#393630" font-size="10.5" letter-spacing="1.2">ONGOING</text>
-    <text x="45" y="274" fill="#7D6C5D">LEARN</text><text x="190" y="274">MLOps · PyTorch · Airflow · Kafka</text><rect x="920" y="253" width="126" height="31" rx="15.5" fill="#E9E4DB" stroke="#CFC7BB"/><text x="983" y="274" text-anchor="middle" fill="#393630" font-size="10.5" letter-spacing="1.2">EXPLORING</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="111.429" viewBox="0 0 1400 195" role="img" aria-labelledby="title desc">
+  <title id="title">Live contribution stream</title>
+  <desc id="desc">A dark gaming-inspired activity header with moving origami objects and system signals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#151A21"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7D6C5D" stop-opacity="0"/><stop offset=".5" stop-color="#C8B39F" stop-opacity=".5"/><stop offset="1" stop-color="#7D6C5D" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>.serif{font-family:Georgia,"Times New Roman",serif}.mono{font-family:"SFMono-Regular","Cascadia Code",monospace}.sans{font-family:Inter,"Segoe UI",Arial,sans-serif}</style>
+  </defs>
+  <rect x="1" y="1" width="1398" height="193" rx="18" fill="url(#bg)" stroke="#343A43"/>
+  <g opacity=".38" stroke="#303741"><path d="M0 154H1400"/><path d="M0 164H1400"/><path d="M0 174H1400"/><path d="M0 184H1400"/></g>
+  <text x="48" y="43" class="mono" font-size="16" fill="#A99482" letter-spacing="2">ACTIVITY / LIVE</text>
+  <text x="48" y="98" class="serif" font-size="36" fill="#F4F1EA">Contribution stream</text>
+  <text x="49" y="132" class="sans" font-size="18" fill="#98A1AD">A live trace of commits, experiments, and things shipped.</text>
+  <circle cx="1095" cy="42" r="6" fill="#69D38A" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="1115" y="48" class="mono" font-size="15" fill="#B8C0CA" letter-spacing="1.5">ONLINE</text>
+  <text x="1348" y="48" text-anchor="end" class="mono" font-size="15" fill="#707985">@KAANGUNER4</text>
+
+  <rect x="-260" y="151" width="260" height="40" fill="url(#scan)" opacity=".7"><animate attributeName="x" from="-260" to="1400" dur="5s" begin="-2s" repeatCount="indefinite"/></rect>
+
+  <g filter="url(#glow)">
+    <g>
+      <polygon points="0,11 24,0 17,17" fill="#F4F1EA"/><polygon points="17,17 39,4 32,20" fill="#B7AA9D"/><polygon points="17,17 37,31 28,19" fill="#FFFFFF"/><polygon points="17,17 2,29 9,14" fill="#756A60"/>
+      <animateMotion path="M-70 168 C220 136 390 192 670 160 S1120 137 1470 166" dur="11s" begin="-3s" repeatCount="indefinite"/>
+    </g>
   </g>
-  <g transform="translate(1162 113)">
-    <g fill="#1B1A18"><rect width="22" height="22" rx="4"/><rect x="30" width="22" height="22" rx="4"/><rect x="60" width="22" height="22" rx="4"/><rect x="90" width="22" height="22" rx="4"/></g><g fill="#7D6C5D"><rect x="120" width="22" height="22" rx="4"/><rect x="150" width="22" height="22" rx="4"/></g>
-    <g transform="translate(0 48)"><g fill="#1B1A18"><rect width="22" height="22" rx="4"/><rect x="30" width="22" height="22" rx="4"/><rect x="60" width="22" height="22" rx="4"/></g><g fill="#7D6C5D"><rect x="90" width="22" height="22" rx="4"/><rect x="120" width="22" height="22" rx="4"/></g><rect x="150" width="22" height="22" rx="4" fill="#DED8CE"/></g>
-    <g transform="translate(0 96)"><g fill="#7D6C5D"><rect width="22" height="22" rx="4"/><rect x="30" width="22" height="22" rx="4"/><rect x="60" width="22" height="22" rx="4"/></g><g fill="#DED8CE"><rect x="90" width="22" height="22" rx="4"/><rect x="120" width="22" height="22" rx="4"/><rect x="150" width="22" height="22" rx="4"/></g></g>
-    <g transform="translate(0 144)"><g fill="#7D6C5D"><rect width="22" height="22" rx="4"/><rect x="30" width="22" height="22" rx="4"/></g><g fill="#DED8CE"><rect x="60" width="22" height="22" rx="4"/><rect x="90" width="22" height="22" rx="4"/><rect x="120" width="22" height="22" rx="4"/><rect x="150" width="22" height="22" rx="4"/></g></g>
+  <g opacity=".8">
+    <circle r="4" fill="#A99482"><animateMotion path="M-30 176 H1430" dur="7s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#F4F1EA"><animateMotion path="M1430 160 H-30" dur="9s" begin="-3s" repeatCount="indefinite"/></circle>
+    <rect width="7" height="7" rx="2" fill="#7D6C5D"><animateMotion path="M-30 186 H1430" dur="13s" begin="-7s" repeatCount="indefinite"/></rect>
+  </g>
+  <g transform="translate(1045 91)" class="mono" font-size="13" fill="#6F7884" letter-spacing="1.5">
+    <text x="0" y="0">SYNC</text><text x="88" y="0">BUILD</text><text x="190" y="0">SHIP</text>
+    <path d="M2 19H251" stroke="#303741"/><circle cx="3" cy="19" r="3" fill="#A99482"><animate attributeName="cx" values="3;251;3" dur="4.8s" repeatCount="indefinite"/></circle>
   </g>
 </svg>

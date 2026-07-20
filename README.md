@@ -22,7 +22,13 @@ Computer Engineering student working across **AI, data, and backend engineering*
 
 ## Activity
 
-<img width="100%" src="./assets/activity-board.svg" alt="Current activity board: building predictive systems, refining data pipelines, and learning MLOps" />
+<img width="100%" src="./assets/activity-board.svg" alt="Animated contribution stream header" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaanguner4/kaanguner4/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kaanguner4/kaanguner4/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="Animated GitHub contribution grid" src="https://raw.githubusercontent.com/kaanguner4/kaanguner4/output/github-contribution-grid-snake.svg" />
+</picture>
 
 <img width="100%" src="./assets/divider.svg" alt="" />
 
@@ -64,8 +70,6 @@ Computer Engineering student working across **AI, data, and backend engineering*
 ## Languages & technologies
 
 <img width="100%" src="./assets/tech-stack.svg" alt="Programming languages and technologies across AI, data, backend, databases, and delivery" />
-
-<sub>Coursework · BTK Akademi — Introduction to Deep Learning</sub>
 
 <br/><br/>
 
