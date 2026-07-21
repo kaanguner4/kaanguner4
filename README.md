@@ -19,6 +19,7 @@
 <br/>
 
 <a id="profile"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/section-about.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/light/section-about.svg" />
@@ -51,6 +52,7 @@ From feature pipelines and machine-learning models to APIs and database-backed a
 </picture>
 
 <a id="selected-work"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/light/section-projects.svg" />
@@ -167,6 +169,7 @@ From feature pipelines and machine-learning models to APIs and database-backed a
 </picture>
 
 <a id="contact"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/section-contact.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/light/section-contact.svg" />
