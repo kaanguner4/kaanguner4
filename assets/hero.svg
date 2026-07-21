@@ -65,15 +65,15 @@
     <text x="58" y="342" class="mono" font-size="17" fill="#94A3B8">and database-backed applications.</text>
 
     <g class="mono" font-size="13.5">
-      <rect x="58" y="370" width="112" height="34" rx="17" fill="#10212A" stroke="#2DD4BF" stroke-opacity="0.45"/>
+      <rect x="58" y="370" width="148" height="34" rx="17" fill="#10212A" stroke="#2DD4BF" stroke-opacity="0.45"/>
       <circle cx="78" cy="387" r="4" fill="#5EEAD4"/>
-      <text x="91" y="392" fill="#B7F7EE">Applied ML</text>
-      <rect x="182" y="370" width="134" height="34" rx="17" fill="#111D2B" stroke="#38BDF8" stroke-opacity="0.45"/>
-      <circle cx="202" cy="387" r="4" fill="#7DD3FC"/>
-      <text x="215" y="392" fill="#C6EAFF">Data systems</text>
-      <rect x="328" y="370" width="142" height="34" rx="17" fill="#18182B" stroke="#A78BFA" stroke-opacity="0.45"/>
-      <circle cx="348" cy="387" r="4" fill="#C4B5FD"/>
-      <text x="361" y="392" fill="#E1D9FF">Backend / APIs</text>
+      <text x="94" y="392" fill="#B7F7EE">Applied ML</text>
+      <rect x="220" y="370" width="170" height="34" rx="17" fill="#111D2B" stroke="#38BDF8" stroke-opacity="0.45"/>
+      <circle cx="240" cy="387" r="4" fill="#7DD3FC"/>
+      <text x="256" y="392" fill="#C6EAFF">Data systems</text>
+      <rect x="404" y="370" width="196" height="34" rx="17" fill="#18182B" stroke="#A78BFA" stroke-opacity="0.45"/>
+      <circle cx="424" cy="387" r="4" fill="#C4B5FD"/>
+      <text x="440" y="392" fill="#E1D9FF">Backend / APIs</text>
     </g>
 
     <g transform="translate(914,92)">
