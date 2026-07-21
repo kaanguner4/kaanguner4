@@ -78,8 +78,9 @@
         <circle cx="586" cy="183" r="18" fill="#102633" stroke="#38BDF8" stroke-opacity="0.55"/>
         <text x="586" y="189" text-anchor="middle" class="mono" font-size="14" fill="#7DD3FC">01</text>
         <text x="620" y="180" class="disp" font-size="20" fill="#EEF4FA">Applied AI &amp; data systems</text>
-        <text x="620" y="207" class="mono" font-size="14.5" fill="#9AA8BA">Prepare data, engineer features, train and evaluate models, then expose useful outputs.</text>
-        <text x="620" y="235" class="mono" font-size="12.5" fill="#7DD3FC">proof · SaveCon Water Intelligence · Car Price Predictor</text>
+        <text x="620" y="205" class="mono" font-size="14.5" fill="#9AA8BA">Prepare data, engineer features, train and evaluate models,</text>
+        <text x="620" y="225" class="mono" font-size="14.5" fill="#9AA8BA">then expose useful outputs through APIs and applications.</text>
+        <text x="620" y="249" class="mono" font-size="12.5" fill="#7DD3FC">proof · SaveCon Water Intelligence · Car Price Predictor</text>
       </g>
 
       <g>
@@ -88,8 +89,9 @@
         <circle cx="586" cy="311" r="18" fill="#1D1830" stroke="#A78BFA" stroke-opacity="0.55"/>
         <text x="586" y="317" text-anchor="middle" class="mono" font-size="14" fill="#C4B5FD">02</text>
         <text x="620" y="308" class="disp" font-size="20" fill="#EEF4FA">Backend systems &amp; APIs</text>
-        <text x="620" y="335" class="mono" font-size="14.5" fill="#9AA8BA">Build REST services, authentication flows and data layers across SQL and Redis.</text>
-        <text x="620" y="363" class="mono" font-size="12.5" fill="#C4B5FD">proof · NAC System · Auto Care Hub</text>
+        <text x="620" y="333" class="mono" font-size="14.5" fill="#9AA8BA">Build REST services, authentication flows and data layers</text>
+        <text x="620" y="353" class="mono" font-size="14.5" fill="#9AA8BA">across SQL databases and Redis.</text>
+        <text x="620" y="377" class="mono" font-size="12.5" fill="#C4B5FD">proof · NAC System · Auto Care Hub</text>
       </g>
 
       <g>
@@ -98,8 +100,9 @@
         <circle cx="586" cy="439" r="18" fill="#10241F" stroke="#34D399" stroke-opacity="0.55"/>
         <text x="586" y="445" text-anchor="middle" class="mono" font-size="14" fill="#6EE7B7">03</text>
         <text x="620" y="436" class="disp" font-size="20" fill="#EEF4FA">End-to-end delivery</text>
-        <text x="620" y="463" class="mono" font-size="14.5" fill="#9AA8BA">Package, test and document systems so they can be run, reviewed and extended.</text>
-        <text x="620" y="491" class="mono" font-size="12.5" fill="#6EE7B7">proof · Docker Compose · test suites · handoff documentation</text>
+        <text x="620" y="461" class="mono" font-size="14.5" fill="#9AA8BA">Package, test and document systems so they can be run,</text>
+        <text x="620" y="481" class="mono" font-size="14.5" fill="#9AA8BA">reviewed and extended by another developer.</text>
+        <text x="620" y="505" class="mono" font-size="12.5" fill="#6EE7B7">proof · Docker Compose · test suites · handoff documentation</text>
       </g>
     </g>
   </g>

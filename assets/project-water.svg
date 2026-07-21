@@ -44,7 +44,7 @@
 
     <line x1="40" y1="235" x2="1360" y2="235" stroke="#1E293B"/>
     <text x="40" y="262" class="mono" font-size="13" fill="#7DD3FC">&gt; explore architecture, tests and handoff docs</text>
-    <rect x="392" y="250" width="8" height="16" rx="1" fill="#38BDF8">
+    <rect x="420" y="250" width="8" height="16" rx="1" fill="#38BDF8">
       <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
     </rect>
 

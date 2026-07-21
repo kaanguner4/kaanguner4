@@ -12,7 +12,19 @@ engineering personality, but every screen should answer one of three questions:
 The page has exactly two numbered main sections. Contact is an unnumbered closing
 step.
 
-## Palette
+## Theme system
+
+Every visual has two content-identical variants:
+
+- `assets/*.svg`: dark-theme originals
+- `assets/light/*.svg`: light-theme variants with the same geometry, copy,
+  animation and accessibility metadata
+
+`README.md` selects the matching file with a GitHub-supported `<picture>`
+element and `prefers-color-scheme`. The light asset is also the fallback, so
+the profile stays readable in clients that ignore the media sources.
+
+### Dark palette
 
 - Canvas: `#080D17` → `#0C1320`
 - Surface: `#0B111D` / `#0E1724`
@@ -23,6 +35,18 @@ step.
 - Violet: `#A78BFA` / `#C4B5FD`
 - Pink: `#F472B6` / `#F9A8D4`
 - Amber: `#FBBF24` / `#FCD34D`
+
+### Light palette
+
+- Canvas: `#F8FAFC` → `#F1F5F9`
+- Surface: `#FFFFFF` / `#F1F5F9`
+- Line: `#CBD5E1` / `#BAE6FD`
+- Text: `#0F172A` (bright) · `#475569` (muted) · `#64748B` (dim)
+- Cyan: `#0284C7` / `#0369A1`
+- Teal: `#047857` / `#0F766E`
+- Violet: `#7C3AED` / `#6D28D9`
+- Pink: `#DB2777` / `#BE185D`
+- Amber: `#D97706` / `#92400E`
 
 ## Typography
 
@@ -65,7 +89,8 @@ Contact (unnumbered)
 
 ## Visual language
 
-1. Dark canvas, quiet grid and restrained glow.
+1. A dark terminal canvas or a light paper-like canvas, both with a quiet grid
+   and restrained glow.
 2. Cyan leads identity and data flow; pink marks selected work; teal marks real
    activity; violet marks the toolkit; amber marks contact.
 3. Animation is ambient only: status pulses, moving dashed flow lines and slow
@@ -97,6 +122,8 @@ assets/
   section-contact.svg
   divider.svg
   footer.svg
+  light/
+    # light-theme counterpart of every SVG above
 .github/
   workflows/
     contribution-snake.yml

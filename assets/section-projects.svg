@@ -13,7 +13,7 @@
     <rect x="0" y="0" width="5" height="104" fill="#F472B6"><animate attributeName="opacity" values="1;0.45;1" dur="3.5s" repeatCount="indefinite"/></rect>
     <text x="40" y="45" class="mono" font-size="13" letter-spacing="4" fill="#F9A8D4" opacity="0.8">/ 02</text>
     <text x="40" y="82" class="disp" font-size="38" fill="#E5EEF5">selected work</text>
-    <text x="310" y="80" class="mono" font-size="15" fill="#5A6678">projects · real activity · technical toolkit</text>
+    <text x="370" y="80" class="mono" font-size="15" fill="#5A6678">projects · real activity · technical toolkit</text>
     <circle cx="1348" cy="52" r="4.5" fill="#F472B6"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
   </g>
   <rect x="1" y="1" width="1398" height="102" rx="16" fill="none" stroke="#1B2537"/>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="590" viewBox="0 0 1400 590" role="img" aria-labelledby="t d">
+  <title id="t">Professional profile and capabilities</title>
+  <desc id="d">A CV-style summary of Kaan Güner's focus, location, availability and capabilities across applied AI, backend systems and end-to-end delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0284C7"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="soft" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="32"/></filter>
+    <clipPath id="clip"><rect width="1400" height="590" rx="20"/></clipPath>
+    <style>
+      .mono{font-family:"SFMono-Regular","Cascadia Code","JetBrains Mono",ui-monospace,monospace}
+      .disp{font-family:"Trebuchet MS",Verdana,Inter,"Segoe UI",Arial,sans-serif;font-weight:700}
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1400" height="590" fill="url(#bg)"/>
+    <circle cx="1260" cy="60" r="165" fill="#0284C7" opacity="0.08" filter="url(#soft)"/>
+    <circle cx="110" cy="540" r="130" fill="#7C3AED" opacity="0.07" filter="url(#soft)"/>
+
+    <g class="mono" font-size="13">
+      <circle cx="52" cy="42" r="5" fill="#DB2777"/>
+      <circle cx="70" cy="42" r="5" fill="#D97706"/>
+      <circle cx="88" cy="42" r="5" fill="#047857"/>
+      <text x="112" y="47" fill="#0F766E">profile.yaml</text>
+      <text x="1348" y="47" text-anchor="end" fill="#64748B">recruiter view · concise</text>
+    </g>
+    <line x1="32" y1="65" x2="1368" y2="65" stroke="#CBD5E1"/>
+
+    <g>
+      <rect x="30" y="88" width="470" height="466" rx="16" fill="url(#panel)" stroke="#CBD5E1"/>
+      <rect x="30" y="88" width="5" height="466" rx="2.5" fill="#0284C7"/>
+
+      <text x="58" y="126" class="mono" font-size="12" letter-spacing="3" fill="#0369A1">POSITIONING</text>
+      <text x="58" y="168" class="disp" font-size="27" fill="#0F172A">Computer Engineering</text>
+      <text x="58" y="201" class="disp" font-size="27" fill="#0F172A">student and builder.</text>
+
+      <text x="58" y="242" class="mono" font-size="16" fill="#334155">Focused on applied AI, data systems</text>
+      <text x="58" y="268" class="mono" font-size="16" fill="#334155">and backend engineering — owning the</text>
+      <text x="58" y="294" class="mono" font-size="16" fill="#334155">path from raw input to usable product.</text>
+
+      <line x1="58" y1="323" x2="472" y2="323" stroke="#CBD5E1"/>
+      <text x="58" y="353" class="mono" font-size="11" letter-spacing="2.5" fill="#64748B">CV SNAPSHOT</text>
+
+      <g class="mono" font-size="14">
+        <text x="58" y="386" fill="#64748B">role</text>
+        <text x="150" y="386" fill="#1E293B">Computer Engineering student</text>
+        <text x="58" y="418" fill="#64748B">focus</text>
+        <text x="150" y="418" fill="#1E293B">AI · data · backend</text>
+        <text x="58" y="450" fill="#64748B">base</text>
+        <text x="150" y="450" fill="#1E293B">Türkiye · UTC+3</text>
+        <text x="58" y="482" fill="#64748B">status</text>
+        <text x="150" y="482" fill="#047857">open to opportunities</text>
+      </g>
+
+      <rect x="58" y="508" width="386" height="28" rx="8" fill="#F1F5F9" stroke="#CBD5E1"/>
+      <text x="74" y="527" class="mono" font-size="11.5" fill="#475569">readable · measured · end-to-end ownership</text>
+    </g>
+
+    <g>
+      <rect x="520" y="88" width="850" height="466" rx="16" fill="url(#panel)" stroke="#CBD5E1"/>
+      <text x="550" y="126" class="mono" font-size="12" letter-spacing="3" fill="#6D28D9">WHAT I CAN CONTRIBUTE</text>
+      <text x="1340" y="126" text-anchor="end" class="mono" font-size="11" fill="#64748B">CAPABILITY → EVIDENCE</text>
+
+      <g>
+        <rect x="550" y="148" width="790" height="112" rx="14" fill="#FFFFFF" stroke="#BAE6FD"/>
+        <rect x="550" y="148" width="4" height="112" rx="2" fill="#0284C7"/>
+        <circle cx="586" cy="183" r="18" fill="#E0F2FE" stroke="#0284C7" stroke-opacity="0.55"/>
+        <text x="586" y="189" text-anchor="middle" class="mono" font-size="14" fill="#0369A1">01</text>
+        <text x="620" y="180" class="disp" font-size="20" fill="#0F172A">Applied AI &amp; data systems</text>
+        <text x="620" y="205" class="mono" font-size="14.5" fill="#475569">Prepare data, engineer features, train and evaluate models,</text>
+        <text x="620" y="225" class="mono" font-size="14.5" fill="#475569">then expose useful outputs through APIs and applications.</text>
+        <text x="620" y="249" class="mono" font-size="12.5" fill="#0369A1">proof · SaveCon Water Intelligence · Car Price Predictor</text>
+      </g>
+
+      <g>
+        <rect x="550" y="276" width="790" height="112" rx="14" fill="#FFFFFF" stroke="#DDD6FE"/>
+        <rect x="550" y="276" width="4" height="112" rx="2" fill="#7C3AED"/>
+        <circle cx="586" cy="311" r="18" fill="#F3E8FF" stroke="#7C3AED" stroke-opacity="0.55"/>
+        <text x="586" y="317" text-anchor="middle" class="mono" font-size="14" fill="#6D28D9">02</text>
+        <text x="620" y="308" class="disp" font-size="20" fill="#0F172A">Backend systems &amp; APIs</text>
+        <text x="620" y="333" class="mono" font-size="14.5" fill="#475569">Build REST services, authentication flows and data layers</text>
+        <text x="620" y="353" class="mono" font-size="14.5" fill="#475569">across SQL databases and Redis.</text>
+        <text x="620" y="377" class="mono" font-size="12.5" fill="#6D28D9">proof · NAC System · Auto Care Hub</text>
+      </g>
+
+      <g>
+        <rect x="550" y="404" width="790" height="112" rx="14" fill="#FFFFFF" stroke="#A7F3D0"/>
+        <rect x="550" y="404" width="4" height="112" rx="2" fill="#047857"/>
+        <circle cx="586" cy="439" r="18" fill="#DCFCE7" stroke="#047857" stroke-opacity="0.55"/>
+        <text x="586" y="445" text-anchor="middle" class="mono" font-size="14" fill="#047857">03</text>
+        <text x="620" y="436" class="disp" font-size="20" fill="#0F172A">End-to-end delivery</text>
+        <text x="620" y="461" class="mono" font-size="14.5" fill="#475569">Package, test and document systems so they can be run,</text>
+        <text x="620" y="481" class="mono" font-size="14.5" fill="#475569">reviewed and extended by another developer.</text>
+        <text x="620" y="505" class="mono" font-size="12.5" fill="#047857">proof · Docker Compose · test suites · handoff documentation</text>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1398" height="588" rx="20" fill="none" stroke="url(#line)" stroke-opacity="0.28"/>
+</svg>

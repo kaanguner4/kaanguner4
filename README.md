@@ -1,6 +1,10 @@
 <div align="center">
 
-<img width="100%" src="./assets/hero.svg" alt="Kaan Güner — Computer Engineering student focused on AI, data and backend systems" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/hero.svg" />
+  <img width="100%" src="./assets/light/hero.svg" alt="Kaan Güner — Computer Engineering student focused on AI, data and backend systems" />
+</picture>
 
 <br/>
 
@@ -15,7 +19,11 @@
 <br/>
 
 <a id="profile"></a>
-<img width="100%" src="./assets/section-about.svg" alt="Section 1: Profile and contribution" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-about.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/section-about.svg" />
+  <img width="100%" src="./assets/light/section-about.svg" alt="Section 1: Profile and contribution" />
+</picture>
 
 <div align="center">
 
@@ -30,12 +38,24 @@ From feature pipelines and machine-learning models to APIs and database-backed a
 
 <br/>
 
-<img width="100%" src="./assets/about.svg" alt="Professional summary: positioning, CV snapshot and capabilities across AI, backend and end-to-end delivery" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/about.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/about.svg" />
+  <img width="100%" src="./assets/light/about.svg" alt="Professional summary: positioning, CV snapshot and capabilities across AI, backend and end-to-end delivery" />
+</picture>
 
-<img width="100%" src="./assets/divider.svg" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/divider.svg" />
+  <img width="100%" src="./assets/light/divider.svg" alt="" />
+</picture>
 
 <a id="selected-work"></a>
-<img width="100%" src="./assets/section-projects.svg" alt="Section 2: Selected work, real activity and technical toolkit" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/section-projects.svg" />
+  <img width="100%" src="./assets/light/section-projects.svg" alt="Section 2: Selected work, real activity and technical toolkit" />
+</picture>
 
 <div align="center">
 
@@ -48,31 +68,51 @@ From feature pipelines and machine-learning models to APIs and database-backed a
 <br/>
 
 <a href="https://github.com/kaanguner4/SaveCon-Water-Anomaly-Detection">
-<img width="100%" src="./assets/project-water.svg" alt="SaveCon Water Intelligence — featured end-to-end AI and backend system" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-water.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/project-water.svg" />
+  <img width="100%" src="./assets/light/project-water.svg" alt="SaveCon Water Intelligence — featured end-to-end AI and backend system" />
+</picture>
 </a>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/kaanguner4/CarPricePredictor-ML-Model">
-<img width="100%" src="./assets/project-car-price.svg" alt="Car Price Predictor — CatBoost regression pipeline and Streamlit prediction app" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-car-price.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/project-car-price.svg" />
+  <img width="100%" src="./assets/light/project-car-price.svg" alt="Car Price Predictor — CatBoost regression pipeline and Streamlit prediction app" />
+</picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/kaanguner4/NAC-System">
-<img width="100%" src="./assets/project-nac.svg" alt="NAC System — Dockerized RADIUS AAA system with a FastAPI policy engine" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-nac.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/project-nac.svg" />
+  <img width="100%" src="./assets/light/project-nac.svg" alt="NAC System — Dockerized RADIUS AAA system with a FastAPI policy engine" />
+</picture>
 </a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/kaanguner4/TrackLearnerAI">
-<img width="100%" src="./assets/project-track-learner.svg" alt="Track Learner AI — real-time neuroevolution driving simulation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-track-learner.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/project-track-learner.svg" />
+  <img width="100%" src="./assets/light/project-track-learner.svg" alt="Track Learner AI — real-time neuroevolution driving simulation" />
+</picture>
 </a>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/kaanguner4/AutoCareHub">
-<img width="100%" src="./assets/project-auto-care.svg" alt="Auto Care Hub — full-stack automotive service platform" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-auto-care.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/project-auto-care.svg" />
+  <img width="100%" src="./assets/light/project-auto-care.svg" alt="Auto Care Hub — full-stack automotive service platform" />
+</picture>
 </a>
 </td>
 </tr>
@@ -80,9 +120,17 @@ From feature pipelines and machine-learning models to APIs and database-backed a
 
 <br/>
 
-<img width="100%" src="./assets/section-activity.svg" alt="Real GitHub activity subsection" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-activity.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/section-activity.svg" />
+  <img width="100%" src="./assets/light/section-activity.svg" alt="Real GitHub activity subsection" />
+</picture>
 
-<img width="100%" src="./assets/activity-board.svg" alt="The contribution graph below is generated from real public GitHub activity and refreshed daily" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-board.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/activity-board.svg" />
+  <img width="100%" src="./assets/light/activity-board.svg" alt="The contribution graph below is generated from real public GitHub activity and refreshed daily" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaanguner4/kaanguner4/output/github-contribution-grid-snake-dark.svg" />
@@ -92,18 +140,38 @@ From feature pipelines and machine-learning models to APIs and database-backed a
 
 <br/>
 
-<img width="100%" src="./assets/section-stack.svg" alt="Technical toolkit subsection" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-stack.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/section-stack.svg" />
+  <img width="100%" src="./assets/light/section-stack.svg" alt="Technical toolkit subsection" />
+</picture>
 
-<img width="100%" src="./assets/tech-stack.svg" alt="Programming languages and technologies grouped by AI and data, backend and databases, and delivery" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/tech-stack.svg" />
+  <img width="100%" src="./assets/light/tech-stack.svg" alt="Programming languages and technologies grouped by AI and data, backend and databases, and delivery" />
+</picture>
 
 <br/>
 
-<img width="100%" src="./assets/principles.svg" alt="Working principles: ship in small steps, measure before optimizing, write readable code, automate repetitive work and own the whole pipeline" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/principles.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/principles.svg" />
+  <img width="100%" src="./assets/light/principles.svg" alt="Working principles: ship in small steps, measure before optimizing, write readable code, automate repetitive work and own the whole pipeline" />
+</picture>
 
-<img width="100%" src="./assets/divider.svg" alt="" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/divider.svg" />
+  <img width="100%" src="./assets/light/divider.svg" alt="" />
+</picture>
 
 <a id="contact"></a>
-<img width="100%" src="./assets/section-contact.svg" alt="Contact Kaan Güner about opportunities, projects or collaboration" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/section-contact.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/section-contact.svg" />
+  <img width="100%" src="./assets/light/section-contact.svg" alt="Contact Kaan Güner about opportunities, projects or collaboration" />
+</picture>
 
 <div align="center">
 
@@ -121,4 +189,8 @@ From feature pipelines and machine-learning models to APIs and database-backed a
 
 <br/>
 
-<img width="100%" src="./assets/footer.svg" alt="Thanks for visiting Kaan Güner's profile" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light/footer.svg" />
+  <img width="100%" src="./assets/light/footer.svg" alt="Thanks for visiting Kaan Güner's profile" />
+</picture>
