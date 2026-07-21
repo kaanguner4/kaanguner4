@@ -1,42 +1,107 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="330" viewBox="0 0 1400 330" role="img" aria-labelledby="t d">
-  <title id="t">About Kaan Güner</title>
-  <desc id="d">A terminal style card introducing Kaan: a computer engineering student focused on AI, data and backend systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="590" viewBox="0 0 1400 590" role="img" aria-labelledby="t d">
+  <title id="t">Professional profile and capabilities</title>
+  <desc id="d">A CV-style summary of Kaan Güner's focus, location, availability and capabilities across applied AI, backend systems and end-to-end delivery.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0E17"/><stop offset="1" stop-color="#0C1320"/></linearGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38BDF8" stop-opacity="0"/><stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.06"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></linearGradient>
-    <clipPath id="clip"><rect width="1400" height="330" rx="20"/></clipPath>
-    <style>.mono{font-family:"SFMono-Regular","Cascadia Code","JetBrains Mono",ui-monospace,monospace}.disp{font-family:"Trebuchet MS",Verdana,Inter,"Segoe UI",Arial,sans-serif;font-weight:700}</style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080D17"/>
+      <stop offset="1" stop-color="#0C1320"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1624"/>
+      <stop offset="1" stop-color="#0A111C"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="soft" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="32"/></filter>
+    <clipPath id="clip"><rect width="1400" height="590" rx="20"/></clipPath>
+    <style>
+      .mono{font-family:"SFMono-Regular","Cascadia Code","JetBrains Mono",ui-monospace,monospace}
+      .disp{font-family:"Trebuchet MS",Verdana,Inter,"Segoe UI",Arial,sans-serif;font-weight:700}
+    </style>
   </defs>
+
   <g clip-path="url(#clip)">
-    <rect width="1400" height="330" fill="url(#bg)"/>
-    <rect x="-320" y="0" width="280" height="330" fill="url(#shine)"><animate attributeName="x" values="-320;1400;1400" dur="7s" repeatCount="indefinite"/></rect>
+    <rect width="1400" height="590" fill="url(#bg)"/>
+    <circle cx="1260" cy="60" r="165" fill="#38BDF8" opacity="0.08" filter="url(#soft)"/>
+    <circle cx="110" cy="540" r="130" fill="#A78BFA" opacity="0.07" filter="url(#soft)"/>
 
-    <circle cx="40" cy="40" r="6" fill="#F472B6" opacity="0.85"/><circle cx="60" cy="40" r="6" fill="#FBBF24" opacity="0.85"/><circle cx="80" cy="40" r="6" fill="#34D399" opacity="0.85"/>
-    <text x="108" y="46" class="mono" font-size="14" fill="#5EEAD4">kaan@github: ~ $ whoami</text>
-    <line x1="20" y1="64" x2="1380" y2="64" stroke="#1B2537"/>
+    <g class="mono" font-size="13">
+      <circle cx="52" cy="42" r="5" fill="#F472B6"/>
+      <circle cx="70" cy="42" r="5" fill="#FBBF24"/>
+      <circle cx="88" cy="42" r="5" fill="#34D399"/>
+      <text x="112" y="47" fill="#5EEAD4">profile.yaml</text>
+      <text x="1348" y="47" text-anchor="end" fill="#64748B">recruiter view · concise</text>
+    </g>
+    <line x1="32" y1="65" x2="1368" y2="65" stroke="#1E293B"/>
 
-    <g class="mono" font-size="18">
-      <text x="40" y="108"><tspan fill="#5EEAD4">name</tspan><tspan fill="#5A6678">    → </tspan><tspan fill="#E5EEF5">Kaan Güner</tspan></text>
-      <text x="40" y="142"><tspan fill="#5EEAD4">role</tspan><tspan fill="#5A6678">    → </tspan><tspan fill="#E5EEF5">Computer Engineering student · AI &amp; data systems</tspan></text>
-      <text x="40" y="176"><tspan fill="#5EEAD4">doing</tspan><tspan fill="#5A6678">   → </tspan><tspan fill="#E5EEF5">predictive systems: sensing → pipelines → models → decisions</tspan></text>
-      <text x="40" y="210"><tspan fill="#5EEAD4">likes</tspan><tspan fill="#5A6678">   → </tspan><tspan fill="#E5EEF5">clean data, small feedback loops, systems that don't break at 3am</tspan></text>
-      <text x="40" y="244"><tspan fill="#5EEAD4">fuel</tspan><tspan fill="#5A6678">    → </tspan><tspan fill="#E5EEF5">coffee, curiosity, and a stubborn "why did that happen?"</tspan></text>
+    <g>
+      <rect x="30" y="88" width="470" height="466" rx="16" fill="url(#panel)" stroke="#203044"/>
+      <rect x="30" y="88" width="5" height="466" rx="2.5" fill="#38BDF8"/>
+
+      <text x="58" y="126" class="mono" font-size="12" letter-spacing="3" fill="#7DD3FC">POSITIONING</text>
+      <text x="58" y="168" class="disp" font-size="27" fill="#EEF4FA">Computer Engineering</text>
+      <text x="58" y="201" class="disp" font-size="27" fill="#EEF4FA">student and builder.</text>
+
+      <text x="58" y="242" class="mono" font-size="16" fill="#AAB6C7">Focused on applied AI, data systems</text>
+      <text x="58" y="268" class="mono" font-size="16" fill="#AAB6C7">and backend engineering — owning the</text>
+      <text x="58" y="294" class="mono" font-size="16" fill="#AAB6C7">path from raw input to usable product.</text>
+
+      <line x1="58" y1="323" x2="472" y2="323" stroke="#1E293B"/>
+      <text x="58" y="353" class="mono" font-size="11" letter-spacing="2.5" fill="#64748B">CV SNAPSHOT</text>
+
+      <g class="mono" font-size="14">
+        <text x="58" y="386" fill="#64748B">role</text>
+        <text x="150" y="386" fill="#D5DDE6">Computer Engineering student</text>
+        <text x="58" y="418" fill="#64748B">focus</text>
+        <text x="150" y="418" fill="#D5DDE6">AI · data · backend</text>
+        <text x="58" y="450" fill="#64748B">base</text>
+        <text x="150" y="450" fill="#D5DDE6">Türkiye · UTC+3</text>
+        <text x="58" y="482" fill="#64748B">status</text>
+        <text x="150" y="482" fill="#6EE7B7">open to opportunities</text>
+      </g>
+
+      <rect x="58" y="508" width="386" height="28" rx="8" fill="#111A28" stroke="#27364A"/>
+      <text x="74" y="527" class="mono" font-size="11.5" fill="#94A3B8">readable · measured · end-to-end ownership</text>
     </g>
 
-    <g class="mono" font-size="16">
-      <text x="40" y="300" fill="#34D399">$ status</text>
-      <text x="140" y="300" fill="#8B98A9">learning in public, shipping in the open —</text>
-      <rect x="586" y="287" width="9" height="17" rx="1" fill="#5EEAD4"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
-    </g>
+    <g>
+      <rect x="520" y="88" width="850" height="466" rx="16" fill="url(#panel)" stroke="#203044"/>
+      <text x="550" y="126" class="mono" font-size="12" letter-spacing="3" fill="#C4B5FD">WHAT I CAN CONTRIBUTE</text>
+      <text x="1340" y="126" text-anchor="end" class="mono" font-size="11" fill="#64748B">CAPABILITY → EVIDENCE</text>
 
-    <g class="mono" font-size="14">
-      <rect x="1122" y="92" width="238" height="34" rx="17" fill="#131C2B" stroke="#2A3A4A"/>
-      <text x="1144" y="114" fill="#7DD3FC">🧠 always learning</text>
-      <rect x="1122" y="138" width="238" height="34" rx="17" fill="#131C2B" stroke="#2A3A4A"/>
-      <text x="1144" y="160" fill="#F9A8D4">🛠️ builder mindset</text>
-      <rect x="1122" y="184" width="238" height="34" rx="17" fill="#131C2B" stroke="#2A3A4A"/>
-      <text x="1144" y="206" fill="#6EE7B7">📊 data first</text>
+      <g>
+        <rect x="550" y="148" width="790" height="112" rx="14" fill="#0E1724" stroke="#1D3A46"/>
+        <rect x="550" y="148" width="4" height="112" rx="2" fill="#38BDF8"/>
+        <circle cx="586" cy="183" r="18" fill="#102633" stroke="#38BDF8" stroke-opacity="0.55"/>
+        <text x="586" y="189" text-anchor="middle" class="mono" font-size="14" fill="#7DD3FC">01</text>
+        <text x="620" y="180" class="disp" font-size="20" fill="#EEF4FA">Applied AI &amp; data systems</text>
+        <text x="620" y="207" class="mono" font-size="14.5" fill="#9AA8BA">Prepare data, engineer features, train and evaluate models, then expose useful outputs.</text>
+        <text x="620" y="235" class="mono" font-size="12.5" fill="#7DD3FC">proof · SaveCon Water Intelligence · Car Price Predictor</text>
+      </g>
+
+      <g>
+        <rect x="550" y="276" width="790" height="112" rx="14" fill="#0E1724" stroke="#302B4D"/>
+        <rect x="550" y="276" width="4" height="112" rx="2" fill="#A78BFA"/>
+        <circle cx="586" cy="311" r="18" fill="#1D1830" stroke="#A78BFA" stroke-opacity="0.55"/>
+        <text x="586" y="317" text-anchor="middle" class="mono" font-size="14" fill="#C4B5FD">02</text>
+        <text x="620" y="308" class="disp" font-size="20" fill="#EEF4FA">Backend systems &amp; APIs</text>
+        <text x="620" y="335" class="mono" font-size="14.5" fill="#9AA8BA">Build REST services, authentication flows and data layers across SQL and Redis.</text>
+        <text x="620" y="363" class="mono" font-size="12.5" fill="#C4B5FD">proof · NAC System · Auto Care Hub</text>
+      </g>
+
+      <g>
+        <rect x="550" y="404" width="790" height="112" rx="14" fill="#0E1724" stroke="#254037"/>
+        <rect x="550" y="404" width="4" height="112" rx="2" fill="#34D399"/>
+        <circle cx="586" cy="439" r="18" fill="#10241F" stroke="#34D399" stroke-opacity="0.55"/>
+        <text x="586" y="445" text-anchor="middle" class="mono" font-size="14" fill="#6EE7B7">03</text>
+        <text x="620" y="436" class="disp" font-size="20" fill="#EEF4FA">End-to-end delivery</text>
+        <text x="620" y="463" class="mono" font-size="14.5" fill="#9AA8BA">Package, test and document systems so they can be run, reviewed and extended.</text>
+        <text x="620" y="491" class="mono" font-size="12.5" fill="#6EE7B7">proof · Docker Compose · test suites · handoff documentation</text>
+      </g>
     </g>
   </g>
-  <rect x="1" y="1" width="1398" height="328" rx="20" fill="none" stroke="#1B2537"/>
+  <rect x="1" y="1" width="1398" height="588" rx="20" fill="none" stroke="url(#line)" stroke-opacity="0.28"/>
 </svg>

@@ -2,50 +2,77 @@
 
 ## Direction
 
-Playful, high-energy, and terminal-native. The profile should feel like a neon arcade dashboard: dark canvas, glowing accents, ambient motion, and a bit of humor. Fun first — but still readable and factual.
+Recruiter-first, terminal-native, and evidence-led. The profile keeps its neon
+engineering personality, but every screen should answer one of three questions:
+
+1. Who is Kaan?
+2. What can he contribute?
+3. Where is the proof?
+
+The page has exactly two numbered main sections. Contact is an unnumbered closing
+step.
 
 ## Palette
 
-- Canvas: `#0A0E1A` → `#121026` (dark gradient)
-- Surface: `#0B0F1A` / `#111827`
-- Panel: `#0E1422`
-- Line: `#1E293B`
-- Text: `#ECFEFF` (bright) · `#94A3B8` (muted) · `#64748B` (dim)
-- Neon cyan: `#22D3EE` / `#5EEAD4` / `#67E8F9`
-- Neon violet: `#A78BFA` / `#C4B5FD`
-- Neon pink: `#F472B6` / `#F9A8D4`
-- Neon lime: `#A3E635` / `#BEF264`
-- Neon amber: `#FBBF24` / `#FCD34D`
+- Canvas: `#080D17` → `#0C1320`
+- Surface: `#0B111D` / `#0E1724`
+- Line: `#1E293B` / `#2A3A4A`
+- Text: `#EEF4FA` (bright) · `#94A3B8` (muted) · `#64748B` (dim)
+- Cyan: `#38BDF8` / `#7DD3FC`
+- Teal: `#34D399` / `#6EE7B7`
+- Violet: `#A78BFA` / `#C4B5FD`
+- Pink: `#F472B6` / `#F9A8D4`
+- Amber: `#FBBF24` / `#FCD34D`
 
 ## Typography
 
-- Display: Trebuchet MS / Verdana / sans-serif (bold, glowing headings)
-- Mono: SFMono / Cascadia Code / JetBrains Code — the dominant voice (terminal feel)
-
-## Visual language
-
-1. Dark canvas with a subtle scrolling grid; reserve bright neon for accents and glows.
-2. Each section owns one accent color (cyan → lime → pink → violet → amber).
-3. Use `feGaussianBlur` glow filters sparingly on headings, stat numbers and status dots.
-4. Motion is ambient: scanlines, blinking cursors, pulsing dots, drifting blobs, an equaliser — never fast or seizure-inducing.
-5. Terminal metaphors everywhere: window dots, `~/path` labels, `$ command`, blinking cursors, `session.log`.
-6. Emoji are welcome as small accents (🔥 ⚡ 🚀 🧠) — one per idea, not confetti.
-7. All visuals are self-contained local SVGs with accessible `<title>`/`<desc>`.
-8. The daily contribution snake mirrors the palette (cyan light / pink dark).
+- Display: Trebuchet MS / Verdana / sans-serif
+- Technical detail: SFMono / Cascadia Code / JetBrains Mono / monospace
+- Recruiter-critical positioning also appears as native text in `README.md`,
+  so it remains searchable, selectable and readable if images do not load.
 
 ## Content hierarchy
 
 ```text
-Hero (identity + status chips)
-01 whoami    — terminal "about me" card
-02 activity  — dashboard: streak, commits, grid, session log + real snake
-03 projects  — flagship banner + 2×2 project cards with short summaries
-04 stack     — languages/tech grid + principles ribbon
-05 contact   — links
-Footer
+Hero
+└── identity + role + outcome statement + build path
+
+01 profile & contribution
+├── concise native-text positioning statement
+└── CV snapshot + three capability/evidence blocks
+
+02 selected work
+├── featured end-to-end project
+├── four focused project cards
+├── real GitHub activity generated daily
+└── programming languages + technical toolkit + principles
+
+Contact (unnumbered)
+└── email + LinkedIn + GitHub
 ```
 
-Each fact appears once. Project cards share one structure; content creates the distinction. Stats on the activity board are illustrative — swap for real numbers anytime.
+## Evidence rules
+
+1. Projects appear before activity and tool lists.
+2. Capability statements point to named project evidence.
+3. Do not use illustrative streaks, commit totals, session logs, online states,
+   or “last commit today” labels.
+4. Time-sensitive activity must be generated from GitHub rather than hard-coded.
+5. Project cards state the system, its useful behavior and its stack; they do not
+   invent adoption numbers, performance metrics or production claims.
+6. Every SVG has a descriptive `title` and `desc`; every README image has
+   meaningful alt text unless it is purely decorative.
+
+## Visual language
+
+1. Dark canvas, quiet grid and restrained glow.
+2. Cyan leads identity and data flow; pink marks selected work; teal marks real
+   activity; violet marks the toolkit; amber marks contact.
+3. Animation is ambient only: status pulses, moving dashed flow lines and slow
+   background breathing.
+4. Terminal metaphors support the message but never replace a clear heading.
+5. Large type carries recruiter-critical information; smaller mono text is for
+   technical proof.
 
 ## Repository structure
 
@@ -54,12 +81,20 @@ README.md
 DESIGN_SYSTEM.md
 assets/
   hero.svg
-  section-about.svg  section-activity.svg  section-projects.svg  section-stack.svg  section-contact.svg
+  section-about.svg
   about.svg
+  section-projects.svg
+  project-water.svg
+  project-car-price.svg
+  project-nac.svg
+  project-track-learner.svg
+  project-auto-care.svg
+  section-activity.svg
   activity-board.svg
-  project-water.svg  project-car-price.svg  project-track-learner.svg  project-nac.svg  project-auto-care.svg
+  section-stack.svg
   tech-stack.svg
   principles.svg
+  section-contact.svg
   divider.svg
   footer.svg
 .github/
