@@ -1,130 +1,37 @@
 # Profile design system
 
-## Direction
+Minimal, monochrome, typography-first. Mirrors [gunerkaan.com](https://gunerkaan.com).
 
-Recruiter-first, terminal-native, and evidence-led. The profile keeps its neon
-engineering personality, but every screen should answer one of three questions:
+## Rules
 
-1. Who is Kaan?
-2. What can he contribute?
-3. Where is the proof?
+1. One accent only: green, for "live" and "open" status chips. Everything else is ink, grey and hairlines.
+2. Big uppercase headlines (weight 800, tight tracking), with one outlined word.
+3. Small mono caps for labels, dates and chips.
+4. Numbered sections: `01 / ABOUT`, `02 / EXPERIENCE`, `03 / SELECTED WORK`, `04 / TOOLKIT`, `05 / ACTIVITY`.
+5. No decoration outside the hero. Only the hero has a panel, a glow and the pixel field.
+6. Content follows the CV. No numbers that are not in the CV.
 
-The page has exactly two numbered main sections. Contact is an unnumbered closing
-step.
+## Tokens
 
-## Theme system
+| | Dark | Light |
+|---|---|---|
+| Hero panel | `#0b0c10` | `#fdfdfd` |
+| Ink | `#f1f3f6` | `#111111` |
+| Muted | `#9ca3af` | `#4b5563` |
+| Dim | `#7a808e` | `#6b7280` |
+| Line | `#22252d` | `#e5e7eb` |
+| Chip | `#15171d` / `#262a33` | `#f9fafb` / `#e5e7eb` |
+| OK | `#86efac` | `#166534` |
 
-Every visual has two content-identical variants:
+Fonts: Inter with system sans fallback; system mono for labels.
 
-- `assets/*.svg`: dark-theme originals
-- `assets/light/*.svg`: light-theme variants with the same geometry, copy,
-  animation and accessibility metadata
+## How to update
 
-`README.md` selects the matching file with a GitHub-supported `<picture>`
-element and `prefers-color-scheme`. The light asset is also the fallback, so
-the profile stays readable in clients that ignore the media sources.
+All text lives in the CONTENT block of `scripts/build.py`.
 
-### Dark palette
-
-- Canvas: `#080D17` → `#0C1320`
-- Surface: `#0B111D` / `#0E1724`
-- Line: `#1E293B` / `#2A3A4A`
-- Text: `#EEF4FA` (bright) · `#94A3B8` (muted) · `#64748B` (dim)
-- Cyan: `#38BDF8` / `#7DD3FC`
-- Teal: `#34D399` / `#6EE7B7`
-- Violet: `#A78BFA` / `#C4B5FD`
-- Pink: `#F472B6` / `#F9A8D4`
-- Amber: `#FBBF24` / `#FCD34D`
-
-### Light palette
-
-- Canvas: `#F8FAFC` → `#F1F5F9`
-- Surface: `#FFFFFF` / `#F1F5F9`
-- Line: `#CBD5E1` / `#BAE6FD`
-- Text: `#0F172A` (bright) · `#475569` (muted) · `#64748B` (dim)
-- Cyan: `#0284C7` / `#0369A1`
-- Teal: `#047857` / `#0F766E`
-- Violet: `#7C3AED` / `#6D28D9`
-- Pink: `#DB2777` / `#BE185D`
-- Amber: `#D97706` / `#92400E`
-
-## Typography
-
-- Display: Trebuchet MS / Verdana / sans-serif
-- Technical detail: SFMono / Cascadia Code / JetBrains Mono / monospace
-- Recruiter-critical positioning also appears as native text in `README.md`,
-  so it remains searchable, selectable and readable if images do not load.
-
-## Content hierarchy
-
-```text
-Hero
-└── identity + role + outcome statement + build path
-
-01 profile & contribution
-├── concise native-text positioning statement
-└── CV snapshot + three capability/evidence blocks
-
-02 selected work
-├── featured end-to-end project
-├── four focused project cards
-├── real GitHub activity generated daily
-└── programming languages + technical toolkit + principles
-
-Contact (unnumbered)
-└── email + LinkedIn + GitHub
+```bash
+python3 scripts/build.py   # rewrites assets/dark and assets/light
 ```
 
-## Evidence rules
-
-1. Projects appear before activity and tool lists.
-2. Capability statements point to named project evidence.
-3. Do not use illustrative streaks, commit totals, session logs, online states,
-   or “last commit today” labels.
-4. Time-sensitive activity must be generated from GitHub rather than hard-coded.
-5. Project cards state the system, its useful behavior and its stack; they do not
-   invent adoption numbers, performance metrics or production claims.
-6. Every SVG has a descriptive `title` and `desc`; every README image has
-   meaningful alt text unless it is purely decorative.
-
-## Visual language
-
-1. A dark terminal canvas or a light paper-like canvas, both with a quiet grid
-   and restrained glow.
-2. Cyan leads identity and data flow; pink marks selected work; teal marks real
-   activity; violet marks the toolkit; amber marks contact.
-3. Animation is ambient only: status pulses, moving dashed flow lines and slow
-   background breathing.
-4. Terminal metaphors support the message but never replace a clear heading.
-5. Large type carries recruiter-critical information; smaller mono text is for
-   technical proof.
-
-## Repository structure
-
-```text
-README.md
-DESIGN_SYSTEM.md
-assets/
-  hero.svg
-  section-about.svg
-  about.svg
-  section-projects.svg
-  project-water.svg
-  project-car-price.svg
-  project-nac.svg
-  project-track-learner.svg
-  project-auto-care.svg
-  section-activity.svg
-  activity-board.svg
-  section-stack.svg
-  tech-stack.svg
-  principles.svg
-  section-contact.svg
-  divider.svg
-  footer.svg
-  light/
-    # light-theme counterpart of every SVG above
-.github/
-  workflows/
-    contribution-snake.yml
-```
+`README.md` picks the theme with `<picture>` and `prefers-color-scheme`.
+About text, links and contact are native Markdown so they stay selectable.
